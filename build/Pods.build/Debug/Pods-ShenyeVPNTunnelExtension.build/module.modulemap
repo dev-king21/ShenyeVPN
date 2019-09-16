@@ -1,0 +1,6 @@
+framework module Pods_ShenyeVPNTunnelExtension {
+  umbrella header "Pods-ShenyeVPNTunnelExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

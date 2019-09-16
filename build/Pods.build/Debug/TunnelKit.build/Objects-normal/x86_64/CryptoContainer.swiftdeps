@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "9TunnelKit7OpenVPNC15CryptoContainerV"
+provides-member:
+- ["9TunnelKit7OpenVPNC", ""]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", ""]
+- ["9TunnelKit7OpenVPNC", "CryptoContainer"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..."
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "Codable"
+- "Decoder"
+- "Encoder"
+- "Equatable"
+- "OpenVPN"
+- "String"
+- !private "TLSBox"
+- "URL"
+depends-member:
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["SK", "lowerBound"]
+- !private ["SK", "range"]
+- !private ["SK", "subscript"]
+- !private ["SK", "write"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "decryptedPrivateKey"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "write"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "lowerBound"]
+- !private ["Sl", "range"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "write"]
+- !private ["SL", "contains"]
+- !private ["SL", "init"]
+- !private ["SL", "range"]
+- !private ["SL", "subscript"]
+- !private ["SL", "write"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "=="]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "Bool"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "CryptoContainer"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "Decoder"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "Encoder"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "String"]
+- !private ["9TunnelKit7OpenVPNC15CryptoContainerV", "TLSBox"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "URL"]
+- !private ["9TunnelKit7OpenVPNC15CryptoContainerV", "begin"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "decrypted"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "deinit"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "encode"]
+- !private ["9TunnelKit7OpenVPNC15CryptoContainerV", "end"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "init"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "isEncrypted"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "pem"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "write"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "decryptedPrivateKey"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "range"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "write"]
+- !private ["s23CustomStringConvertibleP", "ascii"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "decryptedPrivateKey"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- ["Se", "=="]
+- !private ["Se", "CryptoContainer"]
+- !private ["Se", "String"]
+- !private ["Se", "TLSBox"]
+- ["Se", ""]
+- !private ["Se", "begin"]
+- !private ["Se", "contains"]
+- ["Se", "encode"]
+- ["Se", "init"]
+- !private ["Se", "lowerBound"]
+- !private ["Se", "pem"]
+- !private ["Se", "range"]
+- !private ["Se", "subscript"]
+- !private ["Se", "write"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- ["SE", "=="]
+- !private ["SE", "CryptoContainer"]
+- !private ["SE", "String"]
+- !private ["SE", "TLSBox"]
+- ["SE", ""]
+- !private ["SE", "begin"]
+- !private ["SE", "contains"]
+- ["SE", "encode"]
+- ["SE", "init"]
+- !private ["SE", "lowerBound"]
+- !private ["SE", "pem"]
+- !private ["SE", "range"]
+- !private ["SE", "subscript"]
+- !private ["SE", "write"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["SS10FoundationE8EncodingV", "ascii"]
+- ["SQ", "=="]
+- !private ["SQ", "CryptoContainer"]
+- !private ["SQ", "String"]
+- !private ["SQ", "TLSBox"]
+- ["SQ", ""]
+- !private ["SQ", "ascii"]
+- !private ["SQ", "begin"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "decryptedPrivateKey"]
+- ["SQ", "encode"]
+- ["SQ", "init"]
+- !private ["SQ", "lowerBound"]
+- !private ["SQ", "pem"]
+- !private ["SQ", "range"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "write"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s32ExpressibleByStringInterpolationP", "contains"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "range"]
+- !private ["s32ExpressibleByStringInterpolationP", "subscript"]
+- !private ["s32ExpressibleByStringInterpolationP", "write"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "write"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "write"]
+- !private ["SH", "ascii"]
+- !private ["SH", "contains"]
+- !private ["SH", "decryptedPrivateKey"]
+- !private ["SH", "init"]
+- !private ["SH", "lowerBound"]
+- !private ["SH", "range"]
+- !private ["SH", "subscript"]
+- !private ["SH", "write"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "range"]
+- !private ["s25LosslessStringConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "write"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "range"]
+- !private ["s10MirrorPathP", "subscript"]
+- !private ["s10MirrorPathP", "write"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So8NSCodingP", "write"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So9NSCopyingP", "write"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderReadingP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "write"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So21NSItemProviderWritingP", "subscript"]
+- !private ["So21NSItemProviderWritingP", "write"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So16NSMutableCopyingP", "range"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So16NSMutableCopyingP", "write"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "decryptedPrivateKey"]
+- !private ["So8NSObjectC", "range"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "decryptedPrivateKey"]
+- !private ["So8NSObjectP", "range"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "write"]
+- !private ["So19NSPasteboardReadingP", "contains"]
+- !private ["So19NSPasteboardReadingP", "range"]
+- !private ["So19NSPasteboardReadingP", "subscript"]
+- !private ["So19NSPasteboardReadingP", "write"]
+- !private ["So19NSPasteboardWritingP", "contains"]
+- !private ["So19NSPasteboardWritingP", "range"]
+- !private ["So19NSPasteboardWritingP", "subscript"]
+- !private ["So19NSPasteboardWritingP", "write"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So14NSSecureCodingP", "write"]
+- !private ["So8NSStringC", "contains"]
+- !private ["So8NSStringC", "range"]
+- !private ["So8NSStringC", "subscript"]
+- !private ["So8NSStringC", "write"]
+- ["9TunnelKit7OpenVPNC", "Bool"]
+- ["9TunnelKit7OpenVPNC", "Codable"]
+- ["9TunnelKit7OpenVPNC", "CryptoContainer"]
+- ["9TunnelKit7OpenVPNC", "Decoder"]
+- ["9TunnelKit7OpenVPNC", "Encoder"]
+- ["9TunnelKit7OpenVPNC", "Equatable"]
+- ["9TunnelKit7OpenVPNC", "String"]
+- !private ["9TunnelKit7OpenVPNC", "TLSBox"]
+- ["9TunnelKit7OpenVPNC", "URL"]
+- !private ["Sk", "lowerBound"]
+- !private ["Sn", "lowerBound"]
+- !private ["SX", "lowerBound"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "init"]
+- !private ["Sm", "range"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "write"]
+- !private ["SY", "ascii"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "lowerBound"]
+- !private ["ST", "range"]
+- !private ["ST", "subscript"]
+- !private ["ST", "write"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["SS", "range"]
+- !private ["SS", "subscript"]
+- !private ["SS", "write"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "init"]
+- !private ["Sy", "range"]
+- !private ["Sy", "subscript"]
+- !private ["Sy", "write"]
+- !private ["So6TLSBoxC", "decryptedPrivateKey"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "range"]
+- !private ["s16TextOutputStreamP", "subscript"]
+- !private ["s16TextOutputStreamP", "write"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "range"]
+- !private ["s20TextOutputStreamableP", "subscript"]
+- !private ["s20TextOutputStreamableP", "write"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "range"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "write"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "range"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "write"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "range"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "write"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "range"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "write"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "write"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decryptedPrivateKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "range"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "write"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "9TunnelKit7OpenVPNC15CryptoContainerV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "9TunnelKit7OpenVPNC"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "SS"
+- !private "Sy"
+- !private "So6TLSBoxC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/TunnelKit/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Versions/A/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/TunnelKit.build/unextended-module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/SwiftyBeaver.build/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e97970b1a23c3a022dd3fde74421fe5f"

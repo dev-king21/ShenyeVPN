@@ -1,0 +1,834 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["s7UnicodeO6ScalarV", ""]
+- ["10Foundation4DataV", ""]
+- ["Sa", ""]
+- ["SW", ""]
+- ["Sw", ""]
+- ["s7UnicodeO6ScalarV", "hexNibble"]
+- ["10Foundation4DataV", "init"]
+- ["10Foundation4DataV", "toHex"]
+- ["10Foundation4DataV", "zero"]
+- ["10Foundation4DataV", "zero"]
+- ["10Foundation4DataV", "append"]
+- ["10Foundation4DataV", "append"]
+- ["10Foundation4DataV", "append"]
+- ["10Foundation4DataV", "append"]
+- ["10Foundation4DataV", "nullTerminatedString"]
+- ["10Foundation4DataV", "UInt16Value"]
+- ["10Foundation4DataV", "UInt16ValueFromPointers"]
+- ["10Foundation4DataV", "UInt16ValueFromReboundPointers"]
+- ["10Foundation4DataV", "UInt32ValueFromBuffer"]
+- ["10Foundation4DataV", "UInt32Value"]
+- ["10Foundation4DataV", "UInt32ValueFromReboundPointers"]
+- ["10Foundation4DataV", "networkUInt16Value"]
+- ["10Foundation4DataV", "networkUInt32Value"]
+- ["10Foundation4DataV", "subdata"]
+- ["Sa", "flatCount"]
+- ["SW", "bytePointer"]
+- ["Sw", "bytePointer"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "<<"
+- !private "<<="
+- !private "<="
+- !private "=="
+- !private ">>"
+- "Array"
+- "AssignmentPrecedence"
+- "Data"
+- "Int"
+- "String"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "UnicodeScalar"
+- !private "UnsafeBufferPointer"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawBufferPointer"
+- "UnsafePointer"
+- "UnsafeRawBufferPointer"
+- !private "fatalError"
+- !private "|="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["Sa", "Data"]
+- ["Sa", "Int"]
+- ["Sa", "flatCount"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "Array"]
+- !private ["SK", "Data"]
+- !private ["SK", "Element"]
+- !private ["SK", "String"]
+- !private ["SK", "UInt16"]
+- !private ["SK", "UInt32"]
+- !private ["SK", "UInt8"]
+- !private ["SK", "UnsafeBufferPointer"]
+- !private ["SK", "append"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "bindMemory"]
+- !private ["SK", "count"]
+- !private ["SK", "data"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "load"]
+- !private ["SK", "map"]
+- !private ["SK", "pointee"]
+- !private ["SK", "reduce"]
+- !private ["SK", "resetBytes"]
+- !private ["SK", "subdata"]
+- !private ["SK", "subscript"]
+- !private ["SK", "unicodeScalars"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "load"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unicodeScalars"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["Sl", "Array"]
+- !private ["Sl", "Data"]
+- !private ["Sl", "Element"]
+- !private ["Sl", "String"]
+- !private ["Sl", "UInt16"]
+- !private ["Sl", "UInt32"]
+- !private ["Sl", "UInt8"]
+- !private ["Sl", "UnsafeBufferPointer"]
+- !private ["Sl", "append"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "bindMemory"]
+- !private ["Sl", "count"]
+- !private ["Sl", "data"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "load"]
+- !private ["Sl", "map"]
+- !private ["Sl", "pointee"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "resetBytes"]
+- !private ["Sl", "subdata"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "unicodeScalars"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["SL", "UInt8"]
+- !private ["SL", "data"]
+- !private ["SL", "fatalError"]
+- !private ["SL", "hexNibble"]
+- !private ["SL", "init"]
+- !private ["SL", "load"]
+- !private ["SL", "pointee"]
+- !private ["SL", "unicodeScalars"]
+- !private ["SL", "value"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["10Foundation15ContiguousBytesP", "Array"]
+- !private ["10Foundation15ContiguousBytesP", "Data"]
+- !private ["10Foundation15ContiguousBytesP", "Element"]
+- !private ["10Foundation15ContiguousBytesP", "String"]
+- !private ["10Foundation15ContiguousBytesP", "UInt16"]
+- !private ["10Foundation15ContiguousBytesP", "UInt32"]
+- !private ["10Foundation15ContiguousBytesP", "UInt8"]
+- !private ["10Foundation15ContiguousBytesP", "UnsafeBufferPointer"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "baseAddress"]
+- !private ["10Foundation15ContiguousBytesP", "bindMemory"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "load"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "pointee"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "resetBytes"]
+- !private ["10Foundation15ContiguousBytesP", "subdata"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Element"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt16"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt32"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "hexNibble"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "resetBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "subdata"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unicodeScalars"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s17CustomReflectableP", "Array"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "UInt16"]
+- !private ["s17CustomReflectableP", "UInt32"]
+- !private ["s17CustomReflectableP", "UInt8"]
+- !private ["s17CustomReflectableP", "UnsafeBufferPointer"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "fatalError"]
+- !private ["s17CustomReflectableP", "hexNibble"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "load"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "resetBytes"]
+- !private ["s17CustomReflectableP", "subdata"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "unicodeScalars"]
+- !private ["s17CustomReflectableP", "value"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UInt16"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "ascii"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "hexNibble"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "resetBytes"]
+- !private ["s23CustomStringConvertibleP", "subdata"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unicodeScalars"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["10Foundation4DataV", "Array"]
+- ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", "Int"]
+- ["10Foundation4DataV", "String"]
+- ["10Foundation4DataV", "UInt16"]
+- ["10Foundation4DataV", "UInt16Value"]
+- ["10Foundation4DataV", "UInt16ValueFromPointers"]
+- ["10Foundation4DataV", "UInt16ValueFromReboundPointers"]
+- ["10Foundation4DataV", "UInt32"]
+- ["10Foundation4DataV", "UInt32Value"]
+- ["10Foundation4DataV", "UInt32ValueFromBuffer"]
+- ["10Foundation4DataV", "UInt32ValueFromReboundPointers"]
+- ["10Foundation4DataV", "UInt64"]
+- !private ["10Foundation4DataV", "UInt8"]
+- !private ["10Foundation4DataV", "UnsafeBufferPointer"]
+- !private ["10Foundation4DataV", "UnsafePointer"]
+- ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "count"]
+- ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "map"]
+- ["10Foundation4DataV", "networkUInt16Value"]
+- ["10Foundation4DataV", "networkUInt32Value"]
+- ["10Foundation4DataV", "nullTerminatedString"]
+- !private ["10Foundation4DataV", "resetBytes"]
+- ["10Foundation4DataV", "subdata"]
+- !private ["10Foundation4DataV", "subscript"]
+- ["10Foundation4DataV", "toHex"]
+- !private ["10Foundation4DataV", "withUnsafeBytes"]
+- ["10Foundation4DataV", "zero"]
+- !private ["10Foundation12DataProtocolP", "Array"]
+- !private ["10Foundation12DataProtocolP", "Data"]
+- !private ["10Foundation12DataProtocolP", "Element"]
+- !private ["10Foundation12DataProtocolP", "String"]
+- !private ["10Foundation12DataProtocolP", "UInt16"]
+- !private ["10Foundation12DataProtocolP", "UInt32"]
+- !private ["10Foundation12DataProtocolP", "UInt8"]
+- !private ["10Foundation12DataProtocolP", "UnsafeBufferPointer"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "baseAddress"]
+- !private ["10Foundation12DataProtocolP", "bindMemory"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "load"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "pointee"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["10Foundation12DataProtocolP", "resetBytes"]
+- !private ["10Foundation12DataProtocolP", "subdata"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeBytes"]
+- !private ["Se", "Array"]
+- !private ["Se", "Data"]
+- !private ["Se", "String"]
+- !private ["Se", "UInt16"]
+- !private ["Se", "UInt32"]
+- !private ["Se", "UInt8"]
+- !private ["Se", "UnsafeBufferPointer"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "data"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["Se", "resetBytes"]
+- !private ["Se", "subdata"]
+- !private ["Se", "subscript"]
+- !private ["Se", "unicodeScalars"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "Array"]
+- !private ["SE", "Data"]
+- !private ["SE", "String"]
+- !private ["SE", "UInt16"]
+- !private ["SE", "UInt32"]
+- !private ["SE", "UInt8"]
+- !private ["SE", "UnsafeBufferPointer"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "data"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SE", "resetBytes"]
+- !private ["SE", "subdata"]
+- !private ["SE", "subscript"]
+- !private ["SE", "unicodeScalars"]
+- !private ["SE", "withUnsafeBytes"]
+- !private ["SS10FoundationE8EncodingV", "ascii"]
+- !private ["SQ", "Array"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UInt16"]
+- !private ["SQ", "UInt32"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "UnsafeBufferPointer"]
+- !private ["SQ", "append"]
+- !private ["SQ", "ascii"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "hexNibble"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "load"]
+- !private ["SQ", "map"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "resetBytes"]
+- !private ["SQ", "subdata"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unicodeScalars"]
+- !private ["SQ", "value"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "unicodeScalars"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "unicodeScalars"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "unicodeScalars"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UInt8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "fatalError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hexNibble"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "unicodeScalars"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "value"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Array"]
+- !private ["SH", "Data"]
+- !private ["SH", "String"]
+- !private ["SH", "UInt16"]
+- !private ["SH", "UInt32"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "UnsafeBufferPointer"]
+- !private ["SH", "append"]
+- !private ["SH", "ascii"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "hexNibble"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "load"]
+- !private ["SH", "map"]
+- !private ["SH", "pointee"]
+- !private ["SH", "reduce"]
+- !private ["SH", "resetBytes"]
+- !private ["SH", "subdata"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unicodeScalars"]
+- !private ["SH", "value"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["SH", "withUnsafeBytes"]
+- !private ["s25LosslessStringConvertibleP", "UInt8"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "fatalError"]
+- !private ["s25LosslessStringConvertibleP", "hexNibble"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "unicodeScalars"]
+- !private ["s25LosslessStringConvertibleP", "value"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "unicodeScalars"]
+- !private ["SM", "Array"]
+- !private ["SM", "Data"]
+- !private ["SM", "Element"]
+- !private ["SM", "String"]
+- !private ["SM", "UInt16"]
+- !private ["SM", "UInt32"]
+- !private ["SM", "UInt8"]
+- !private ["SM", "UnsafeBufferPointer"]
+- !private ["SM", "append"]
+- !private ["SM", "baseAddress"]
+- !private ["SM", "bindMemory"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["SM", "reduce"]
+- !private ["SM", "resetBytes"]
+- !private ["SM", "subdata"]
+- !private ["SM", "subscript"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "Array"]
+- !private ["10Foundation19MutableDataProtocolP", "Data"]
+- !private ["10Foundation19MutableDataProtocolP", "String"]
+- !private ["10Foundation19MutableDataProtocolP", "UInt16"]
+- !private ["10Foundation19MutableDataProtocolP", "UInt32"]
+- !private ["10Foundation19MutableDataProtocolP", "UInt8"]
+- !private ["10Foundation19MutableDataProtocolP", "UnsafeBufferPointer"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "resetBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "subdata"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeBytes"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "unicodeScalars"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "unicodeScalars"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderReadingP", "unicodeScalars"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So21NSItemProviderWritingP", "unicodeScalars"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "unicodeScalars"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "unicodeScalars"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "unicodeScalars"]
+- !private ["So19NSPasteboardReadingP", "data"]
+- !private ["So19NSPasteboardReadingP", "unicodeScalars"]
+- !private ["So19NSPasteboardWritingP", "data"]
+- !private ["So19NSPasteboardWritingP", "unicodeScalars"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "unicodeScalars"]
+- !private ["So8NSStringC", "data"]
+- !private ["So8NSStringC", "unicodeScalars"]
+- !private ["Sj", "init"]
+- !private ["Sk", "Array"]
+- !private ["Sk", "Data"]
+- !private ["Sk", "Element"]
+- !private ["Sk", "String"]
+- !private ["Sk", "UInt16"]
+- !private ["Sk", "UInt32"]
+- !private ["Sk", "UInt8"]
+- !private ["Sk", "UnsafeBufferPointer"]
+- !private ["Sk", "append"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "bindMemory"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "load"]
+- !private ["Sk", "map"]
+- !private ["Sk", "pointee"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "resetBytes"]
+- !private ["Sk", "subdata"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sm", "Array"]
+- !private ["Sm", "Data"]
+- !private ["Sm", "String"]
+- !private ["Sm", "UInt16"]
+- !private ["Sm", "UInt32"]
+- !private ["Sm", "UInt8"]
+- !private ["Sm", "UnsafeBufferPointer"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "data"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "resetBytes"]
+- !private ["Sm", "subdata"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "unicodeScalars"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["SY", "ascii"]
+- !private ["10Foundation20ReferenceConvertibleP", "Array"]
+- !private ["10Foundation20ReferenceConvertibleP", "Data"]
+- !private ["10Foundation20ReferenceConvertibleP", "String"]
+- !private ["10Foundation20ReferenceConvertibleP", "UInt16"]
+- !private ["10Foundation20ReferenceConvertibleP", "UInt32"]
+- !private ["10Foundation20ReferenceConvertibleP", "UInt8"]
+- !private ["10Foundation20ReferenceConvertibleP", "UnsafeBufferPointer"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "map"]
+- !private ["10Foundation20ReferenceConvertibleP", "resetBytes"]
+- !private ["10Foundation20ReferenceConvertibleP", "subdata"]
+- !private ["10Foundation20ReferenceConvertibleP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeBytes"]
+- !private ["s10SIMDScalarP", "init"]
+- ["s7UnicodeO6ScalarV", "UInt8"]
+- !private ["s7UnicodeO6ScalarV", "fatalError"]
+- ["s7UnicodeO6ScalarV", "hexNibble"]
+- !private ["s7UnicodeO6ScalarV", "value"]
+- !private ["ST", "Array"]
+- !private ["ST", "Data"]
+- !private ["ST", "Element"]
+- !private ["ST", "String"]
+- !private ["ST", "UInt16"]
+- !private ["ST", "UInt32"]
+- !private ["ST", "UInt8"]
+- !private ["ST", "UnsafeBufferPointer"]
+- !private ["ST", "append"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "bindMemory"]
+- !private ["ST", "count"]
+- !private ["ST", "data"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "load"]
+- !private ["ST", "map"]
+- !private ["ST", "pointee"]
+- !private ["ST", "reduce"]
+- !private ["ST", "resetBytes"]
+- !private ["ST", "subdata"]
+- !private ["ST", "subscript"]
+- !private ["ST", "unicodeScalars"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["Sx", "init"]
+- !private ["Sx", "load"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["SS", "data"]
+- !private ["SS", "init"]
+- !private ["SS", "unicodeScalars"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "data"]
+- !private ["Sy", "init"]
+- !private ["Sy", "unicodeScalars"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "unicodeScalars"]
+- !private ["s20TextOutputStreamableP", "UInt8"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "fatalError"]
+- !private ["s20TextOutputStreamableP", "hexNibble"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "unicodeScalars"]
+- !private ["s20TextOutputStreamableP", "value"]
+- !private ["s6UInt16V", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["SS17UnicodeScalarViewV", "count"]
+- !private ["SS17UnicodeScalarViewV", "enumerated"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "init"]
+- !private ["Sr", "baseAddress"]
+- ["Sw", "Element"]
+- ["Sw", "UnsafeMutablePointer"]
+- !private ["Sw", "bindMemory"]
+- ["Sw", "bytePointer"]
+- !private ["SP", "load"]
+- !private ["SP", "pointee"]
+- !private ["SP", "withMemoryRebound"]
+- ["SW", "Element"]
+- ["SW", "UnsafePointer"]
+- !private ["SW", "bindMemory"]
+- ["SW", "bytePointer"]
+- !private ["SW", "load"]
+- !private ["SW", "pointee"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UInt8"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "enumerated"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hexNibble"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "load"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "unicodeScalars"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "value"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "unicodeScalars"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "unicodeScalars"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "UInt8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "fatalError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hexNibble"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "unicodeScalars"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "value"]
+- !private ["s19_HasContiguousBytesP", "Element"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "bindMemory"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "load"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "pointee"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "unicodeScalars"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "unicodeScalars"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unicodeScalars"]
+- !private ["s21_ObjectiveCBridgeableP", "Array"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt16"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt32"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt8"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafeBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "resetBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "subdata"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "unicodeScalars"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["s8_PointerP", "load"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- "s7UnicodeO6ScalarV"
+- !private "ST"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt16V"
+- !private "s6UInt32V"
+- !private "s5UInt8V"
+- !private "SS17UnicodeScalarViewV"
+- !private "SR"
+- !private "Sr"
+- "Sw"
+- !private "SP"
+- "SW"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/TunnelKit/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Versions/A/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/TunnelKit.build/unextended-module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/SwiftyBeaver.build/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5e376136093cce774388e0c7b4be7cc7"

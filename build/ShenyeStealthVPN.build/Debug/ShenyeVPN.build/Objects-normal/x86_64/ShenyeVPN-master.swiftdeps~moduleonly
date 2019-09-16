@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "d72c07edd95d0bbef885372cf41fca55"
+build_time: [1559897920, 258028000]
+inputs:
+  "/Project/ShenyeStealthVPN/ShenyeVPN/MainViewController.swift": [1559897522, 171916961]
+  "/Project/ShenyeStealthVPN/ShenyeVPN/ViewController.swift": [1559872874, 56228103]
+  "/Project/ShenyeStealthVPN/ShenyeVPN/Country.swift": [1556439177, 0]
+  "/Project/ShenyeStealthVPN/ShenyeVPN/TcpProxyService.swift": [1556622262, 0]
+  "/Project/ShenyeStealthVPN/ShenyeVPN/LoginViewController.swift": [1559724026, 0]
+  "/Project/ShenyeStealthVPN/ShenyeVPN/TcpProxyThread.swift": [1559889849, 476638372]
+  "/Project/ShenyeStealthVPN/ShenyeVPN/Server.swift": [1556432455, 0]
+  "/Project/ShenyeStealthVPN/ShenyeVPN/AppDelegate.swift": [1559050922, 0]

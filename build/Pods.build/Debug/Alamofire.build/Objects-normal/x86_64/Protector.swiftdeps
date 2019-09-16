@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UnfairLock"
+- "Protector"
+provides-nominal:
+- "9Alamofire10UnfairLockC"
+- "9Alamofire9ProtectorC"
+provides-member:
+- ["9Alamofire10UnfairLockC", ""]
+- ["9Alamofire9ProtectorC", ""]
+- ["9Alamofire9ProtectorC", "append"]
+- ["9Alamofire9ProtectorC", "append"]
+- ["9Alamofire9ProtectorC", "append"]
+- ["9Alamofire9ProtectorC", "append"]
+- ["9Alamofire9ProtectorC", "attemptToTransitionTo"]
+- ["9Alamofire9ProtectorC", "withState"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Collection"
+- "Data"
+- "Protector"
+- "RangeReplaceableCollection"
+- "Request"
+- "Sequence"
+- "UnfairLock"
+- "Void"
+- "os_unfair_lock"
+- !private "os_unfair_lock_lock"
+- !private "os_unfair_lock_unlock"
+depends-member:
+- !private ["SK", "append"]
+- !private ["Sl", "append"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["s28CustomDebugStringConvertibleP", "MutableState"]
+- ["s28CustomDebugStringConvertibleP", "State"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s23CustomStringConvertibleP", "MutableState"]
+- ["s23CustomStringConvertibleP", "State"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["SE", "append"]
+- ["SQ", "MutableState"]
+- ["SQ", "State"]
+- !private ["SQ", "append"]
+- !private ["SQ", "canTransitionTo"]
+- ["SH", "MutableState"]
+- ["SH", "State"]
+- !private ["SH", "append"]
+- !private ["SH", "canTransitionTo"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["9Alamofire7RequestC12MutableStateV", "state"]
+- ["9Alamofire9ProtectorC", "Bool"]
+- ["9Alamofire9ProtectorC", "Collection"]
+- ["9Alamofire9ProtectorC", "Data"]
+- ["9Alamofire9ProtectorC", "RangeReplaceableCollection"]
+- ["9Alamofire9ProtectorC", "Request"]
+- ["9Alamofire9ProtectorC", "Sequence"]
+- ["9Alamofire9ProtectorC", "UnfairLock"]
+- ["9Alamofire9ProtectorC", "Void"]
+- ["9Alamofire9ProtectorC", "append"]
+- ["9Alamofire9ProtectorC", "attemptToTransitionTo"]
+- ["9Alamofire9ProtectorC", "directValue"]
+- ["9Alamofire9ProtectorC", "init"]
+- !private ["9Alamofire9ProtectorC", "lock"]
+- ["9Alamofire9ProtectorC", "read"]
+- !private ["9Alamofire9ProtectorC", "value"]
+- ["9Alamofire9ProtectorC", "withState"]
+- ["9Alamofire9ProtectorC", "write"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- ["9Alamofire7RequestC", "MutableState"]
+- ["9Alamofire7RequestC", "State"]
+- !private ["ST", "append"]
+- !private ["9Alamofire7RequestC5StateO", "canTransitionTo"]
+- ["9Alamofire10UnfairLockC", "Void"]
+- ["9Alamofire10UnfairLockC", "around"]
+- ["9Alamofire10UnfairLockC", "init"]
+- !private ["9Alamofire10UnfairLockC", "lock"]
+- ["9Alamofire10UnfairLockC", "os_unfair_lock"]
+- !private ["9Alamofire10UnfairLockC", "os_unfair_lock_lock"]
+- !private ["9Alamofire10UnfairLockC", "os_unfair_lock_unlock"]
+- !private ["9Alamofire10UnfairLockC", "unfairLock"]
+- !private ["9Alamofire10UnfairLockC", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["So16os_unfair_lock_sV", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "9Alamofire7RequestC12MutableStateV"
+- "9Alamofire9ProtectorC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "9Alamofire7RequestC"
+- !private "ST"
+- !private "9Alamofire7RequestC5StateO"
+- "9Alamofire10UnfairLockC"
+- !private "s21_ObjectiveCBridgeableP"
+- "So16os_unfair_lock_sV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/Alamofire.build/unextended-module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8f7e0938f90a1632fbc2b89dce182b40"

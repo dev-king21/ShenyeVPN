@@ -1,0 +1,315 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "9TunnelKit21OpenVPNTunnelProviderC7MessageC"
+- "9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO"
+- "9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO"
+provides-member:
+- ["9TunnelKit21OpenVPNTunnelProviderC", ""]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", ""]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", ""]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", ""]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "Message"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "ProviderConfigurationError"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "ProviderError"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "Data"
+- "Equatable"
+- "Error"
+- "OpenVPNTunnelProvider"
+- "String"
+- "UInt8"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "Data"]
+- ["s7CVarArgP", "Message"]
+- !private ["s7CVarArgP", "_findStringSwitchCase"]
+- !private ["Sl", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- ["s23CustomStringConvertibleP", "Message"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- !private ["SQ", "Data"]
+- ["SQ", "Message"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "data"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", "RawValue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_Default_RawValue"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- !private ["s5ErrorP", "_findStringSwitchCase"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "init"]
+- ["s5ErrorP", "rawValue"]
+- !private ["9TunnelKit21GenericSocketDelegateP", "Data"]
+- ["9TunnelKit21GenericSocketDelegateP", "Message"]
+- !private ["9TunnelKit21GenericSocketDelegateP", "_findStringSwitchCase"]
+- ["SH", "=="]
+- !private ["SH", "Data"]
+- ["SH", "Message"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "=="]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "Bool"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "Data"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "Message"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "UInt8"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "data"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "dataCount"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "deinit"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "init"]
+- ["9TunnelKit21OpenVPNTunnelProviderC7MessageC", "requestLog"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["So22NEPacketTunnelProviderC", "Bool"]
+- ["So22NEPacketTunnelProviderC", "Data"]
+- ["So22NEPacketTunnelProviderC", "Equatable"]
+- ["So22NEPacketTunnelProviderC", "Error"]
+- ["So22NEPacketTunnelProviderC", "Message"]
+- ["So22NEPacketTunnelProviderC", "String"]
+- ["So22NEPacketTunnelProviderC", "UInt8"]
+- !private ["So22NEPacketTunnelProviderC", "_findStringSwitchCase"]
+- ["So10NEProviderC", "Bool"]
+- ["So10NEProviderC", "Data"]
+- ["So10NEProviderC", "Equatable"]
+- ["So10NEProviderC", "Error"]
+- ["So10NEProviderC", "Message"]
+- ["So10NEProviderC", "String"]
+- ["So10NEProviderC", "UInt8"]
+- !private ["So10NEProviderC", "_findStringSwitchCase"]
+- ["So16NETunnelProviderC", "Bool"]
+- ["So16NETunnelProviderC", "Data"]
+- ["So16NETunnelProviderC", "Equatable"]
+- ["So16NETunnelProviderC", "Error"]
+- ["So16NETunnelProviderC", "Message"]
+- ["So16NETunnelProviderC", "String"]
+- ["So16NETunnelProviderC", "UInt8"]
+- !private ["So16NETunnelProviderC", "_findStringSwitchCase"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Equatable"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Message"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UInt8"]
+- !private ["So8NSObjectC", "_findStringSwitchCase"]
+- !private ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "Message"]
+- !private ["So8NSObjectP", "_findStringSwitchCase"]
+- !private ["9TunnelKit22OpenVPNSessionDelegateP", "Data"]
+- ["9TunnelKit22OpenVPNSessionDelegateP", "Message"]
+- !private ["9TunnelKit22OpenVPNSessionDelegateP", "_findStringSwitchCase"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "Bool"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "Data"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "Equatable"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "Error"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "Message"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "ProviderConfigurationError"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "ProviderError"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "String"]
+- ["9TunnelKit21OpenVPNTunnelProviderC", "UInt8"]
+- !private ["9TunnelKit21OpenVPNTunnelProviderC", "_findStringSwitchCase"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "String"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "_code"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "_domain"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "_getEmbeddedNSError"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "_userInfo"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "certificateSerialization"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "credentials"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "deinit"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "parameter"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO", "prngInitialization"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "=="]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "RawValue"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "_Default_RawValue"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "_code"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "_domain"]
+- !private ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "_findStringSwitchCase"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "_getEmbeddedNSError"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "_rawHashValue"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "_userInfo"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "authentication"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "deinit"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "dnsFailure"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "encryptionData"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "encryptionInitialization"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "exhaustedProtocols"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "gatewayUnattainable"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "hash"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "hashValue"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "init"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "linkError"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "lzo"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "networkChanged"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "rawValue"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "routing"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "serverCompression"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "socketActivity"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "timeout"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "tlsHandshake"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "tlsInitialization"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "tlsServerVerification"]
+- ["9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO", "unexpectedReply"]
+- !private ["Sk", "init"]
+- !private ["Sm", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_code"]
+- ["SY", "_domain"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_getEmbeddedNSError"]
+- ["SY", "_rawHashValue"]
+- ["SY", "_userInfo"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_findStringSwitchCase"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- "9TunnelKit21GenericSocketDelegateP"
+- "SH"
+- "9TunnelKit21OpenVPNTunnelProviderC7MessageC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So22NEPacketTunnelProviderC"
+- "So10NEProviderC"
+- "So16NETunnelProviderC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "9TunnelKit22OpenVPNSessionDelegateP"
+- "9TunnelKit21OpenVPNTunnelProviderC"
+- "9TunnelKit21OpenVPNTunnelProviderC0E18ConfigurationErrorO"
+- "9TunnelKit21OpenVPNTunnelProviderC0E5ErrorO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/TunnelKit/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Versions/A/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/TunnelKit.build/unextended-module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/SwiftyBeaver.build/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2ee8aea18b15bf1aa760c57e31133078"

@@ -1,0 +1,252 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NEUDPLink"
+provides-nominal:
+- "9TunnelKit9NEUDPLinkC"
+- "9TunnelKit11NEUDPSocketC"
+provides-member:
+- ["9TunnelKit9NEUDPLinkC", ""]
+- ["9TunnelKit11NEUDPSocketC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "Data"
+- "DispatchQueue"
+- "Error"
+- "Int"
+- "LinkInterface"
+- "LinkProducer"
+- "NEUDPLink"
+- "NEUDPSocket"
+- !private "NWHostEndpoint"
+- "NWUDPSession"
+- "String"
+- "Void"
+depends-member:
+- !private ["s7CVarArgP", "NEUDPLink"]
+- !private ["s7CVarArgP", "hostname"]
+- !private ["s7CVarArgP", "impl"]
+- ["s7CVarArgP", "link"]
+- !private ["s7CVarArgP", "resolvedEndpoint"]
+- !private ["s7CVarArgP", "setReadHandler"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s7CVarArgP", "writeDatagram"]
+- !private ["s7CVarArgP", "writeMultipleDatagrams"]
+- !private ["s28CustomDebugStringConvertibleP", "NEUDPLink"]
+- !private ["s28CustomDebugStringConvertibleP", "hostname"]
+- !private ["s28CustomDebugStringConvertibleP", "impl"]
+- ["s28CustomDebugStringConvertibleP", "link"]
+- !private ["s28CustomDebugStringConvertibleP", "resolvedEndpoint"]
+- !private ["s28CustomDebugStringConvertibleP", "setReadHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "writeDatagram"]
+- !private ["s28CustomDebugStringConvertibleP", "writeMultipleDatagrams"]
+- !private ["s23CustomStringConvertibleP", "NEUDPLink"]
+- !private ["s23CustomStringConvertibleP", "hostname"]
+- !private ["s23CustomStringConvertibleP", "impl"]
+- ["s23CustomStringConvertibleP", "link"]
+- !private ["s23CustomStringConvertibleP", "resolvedEndpoint"]
+- !private ["s23CustomStringConvertibleP", "setReadHandler"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["s23CustomStringConvertibleP", "writeDatagram"]
+- !private ["s23CustomStringConvertibleP", "writeMultipleDatagrams"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- !private ["SQ", "NEUDPLink"]
+- !private ["SQ", "hostname"]
+- !private ["SQ", "impl"]
+- ["SQ", "link"]
+- !private ["SQ", "resolvedEndpoint"]
+- !private ["SQ", "setReadHandler"]
+- !private ["SQ", "sync"]
+- !private ["SQ", "writeDatagram"]
+- !private ["SQ", "writeMultipleDatagrams"]
+- !private ["9TunnelKit13GenericSocketP", "NEUDPLink"]
+- !private ["9TunnelKit13GenericSocketP", "impl"]
+- ["9TunnelKit13GenericSocketP", "link"]
+- !private ["SH", "NEUDPLink"]
+- !private ["SH", "hostname"]
+- !private ["SH", "impl"]
+- ["SH", "link"]
+- !private ["SH", "resolvedEndpoint"]
+- !private ["SH", "setReadHandler"]
+- !private ["SH", "sync"]
+- !private ["SH", "writeDatagram"]
+- !private ["SH", "writeMultipleDatagrams"]
+- ["9TunnelKit11IOInterfaceP", ""]
+- !private ["9TunnelKit11IOInterfaceP", "impl"]
+- !private ["9TunnelKit11IOInterfaceP", "init"]
+- ["9TunnelKit11IOInterfaceP", "isReliable"]
+- !private ["9TunnelKit11IOInterfaceP", "maxDatagrams"]
+- ["9TunnelKit11IOInterfaceP", "mtu"]
+- ["9TunnelKit11IOInterfaceP", "packetBufferSize"]
+- ["9TunnelKit11IOInterfaceP", "remoteAddress"]
+- ["9TunnelKit11IOInterfaceP", "setReadHandler"]
+- ["9TunnelKit11IOInterfaceP", "writePacket"]
+- ["9TunnelKit11IOInterfaceP", "writePackets"]
+- ["9TunnelKit13LinkInterfaceP", ""]
+- !private ["9TunnelKit13LinkInterfaceP", "impl"]
+- !private ["9TunnelKit13LinkInterfaceP", "init"]
+- ["9TunnelKit13LinkInterfaceP", "isReliable"]
+- !private ["9TunnelKit13LinkInterfaceP", "maxDatagrams"]
+- ["9TunnelKit13LinkInterfaceP", "mtu"]
+- ["9TunnelKit13LinkInterfaceP", "packetBufferSize"]
+- ["9TunnelKit13LinkInterfaceP", "remoteAddress"]
+- ["9TunnelKit13LinkInterfaceP", "setReadHandler"]
+- ["9TunnelKit13LinkInterfaceP", "writePacket"]
+- ["9TunnelKit13LinkInterfaceP", "writePackets"]
+- !private ["9TunnelKit12LinkProducerP", "NEUDPLink"]
+- ["9TunnelKit12LinkProducerP", ""]
+- !private ["9TunnelKit12LinkProducerP", "impl"]
+- ["9TunnelKit12LinkProducerP", "link"]
+- ["9TunnelKit9NEUDPLinkC", "Bool"]
+- ["9TunnelKit9NEUDPLinkC", "Data"]
+- ["9TunnelKit9NEUDPLinkC", "DispatchQueue"]
+- ["9TunnelKit9NEUDPLinkC", "Error"]
+- ["9TunnelKit9NEUDPLinkC", "Int"]
+- !private ["9TunnelKit9NEUDPLinkC", "NWHostEndpoint"]
+- ["9TunnelKit9NEUDPLinkC", "NWUDPSession"]
+- ["9TunnelKit9NEUDPLinkC", "String"]
+- ["9TunnelKit9NEUDPLinkC", "Void"]
+- ["9TunnelKit9NEUDPLinkC", "deinit"]
+- !private ["9TunnelKit9NEUDPLinkC", "impl"]
+- ["9TunnelKit9NEUDPLinkC", "init"]
+- ["9TunnelKit9NEUDPLinkC", "isReliable"]
+- !private ["9TunnelKit9NEUDPLinkC", "maxDatagrams"]
+- ["9TunnelKit9NEUDPLinkC", "mtu"]
+- ["9TunnelKit9NEUDPLinkC", "packetBufferSize"]
+- ["9TunnelKit9NEUDPLinkC", "remoteAddress"]
+- ["9TunnelKit9NEUDPLinkC", "setReadHandler"]
+- ["9TunnelKit9NEUDPLinkC", "writePacket"]
+- ["9TunnelKit9NEUDPLinkC", "writePackets"]
+- ["9TunnelKit11NEUDPSocketC", "Int"]
+- ["9TunnelKit11NEUDPSocketC", "LinkInterface"]
+- !private ["9TunnelKit11NEUDPSocketC", "NEUDPLink"]
+- ["9TunnelKit11NEUDPSocketC", "deinit"]
+- !private ["9TunnelKit11NEUDPSocketC", "impl"]
+- ["9TunnelKit11NEUDPSocketC", "link"]
+- !private ["So8NSCodingP", "hostname"]
+- !private ["So9NSCopyingP", "hostname"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "LinkInterface"]
+- !private ["So8NSObjectC", "NEUDPLink"]
+- !private ["So8NSObjectC", "hostname"]
+- !private ["So8NSObjectC", "impl"]
+- ["So8NSObjectC", "link"]
+- !private ["So8NSObjectC", "resolvedEndpoint"]
+- !private ["So8NSObjectC", "setReadHandler"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "writeDatagram"]
+- !private ["So8NSObjectC", "writeMultipleDatagrams"]
+- !private ["So8NSObjectP", "NEUDPLink"]
+- !private ["So8NSObjectP", "hostname"]
+- !private ["So8NSObjectP", "impl"]
+- ["So8NSObjectP", "link"]
+- !private ["So8NSObjectP", "resolvedEndpoint"]
+- !private ["So8NSObjectP", "setReadHandler"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "writeDatagram"]
+- !private ["So8NSObjectP", "writeMultipleDatagrams"]
+- !private ["So14NSSecureCodingP", "hostname"]
+- !private ["So10NWEndpointC", "hostname"]
+- !private ["So14NWHostEndpointC", "hostname"]
+- !private ["So12NWUDPSessionC", "resolvedEndpoint"]
+- !private ["So12NWUDPSessionC", "setReadHandler"]
+- !private ["So12NWUDPSessionC", "writeDatagram"]
+- !private ["So12NWUDPSessionC", "writeMultipleDatagrams"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NEUDPLink"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hostname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "impl"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "link"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resolvedEndpoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setReadHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "writeDatagram"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "writeMultipleDatagrams"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SQ"
+- "9TunnelKit13GenericSocketP"
+- "SH"
+- "9TunnelKit11IOInterfaceP"
+- "9TunnelKit13LinkInterfaceP"
+- "9TunnelKit12LinkProducerP"
+- "9TunnelKit9NEUDPLinkC"
+- "9TunnelKit11NEUDPSocketC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So10NWEndpointC"
+- !private "So14NWHostEndpointC"
+- !private "So12NWUDPSessionC"
+- !private "So9OS_objectC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/TunnelKit/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Versions/A/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/TunnelKit.build/unextended-module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/SwiftyBeaver.build/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ee13fc325664ffd0fcf6bc56160838e7"

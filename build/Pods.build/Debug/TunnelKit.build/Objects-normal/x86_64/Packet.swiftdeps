@@ -1,0 +1,440 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "9TunnelKit7OpenVPNC10DataPacketC"
+- "9TunnelKit7OpenVPNC9OCCPacketO"
+- "So10PacketCodeV"
+provides-member:
+- ["So13ControlPacketC", ""]
+- ["9TunnelKit7OpenVPNC", ""]
+- ["9TunnelKit7OpenVPNC10DataPacketC", ""]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", ""]
+- ["So10PacketCodeV", ""]
+- ["So13ControlPacketC", "description"]
+- ["9TunnelKit7OpenVPNC", "DataPacket"]
+- ["9TunnelKit7OpenVPNC", "OCCPacket"]
+provides-dynamic-lookup:
+- "description"
+depends-top-level:
+- !private "!"
+- "=="
+- "ControlPacket"
+- !private "CoreConfiguration"
+- "CustomStringConvertible"
+- "Data"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "OpenVPN"
+- "PacketCode"
+- "String"
+- "StringLiteralType"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "toHex"]
+- !private ["s7CVarArgP", "CoreConfiguration"]
+- !private ["s7CVarArgP", "ackIds"]
+- !private ["s7CVarArgP", "ackRemoteSessionId"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "isAck"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "key"]
+- !private ["s7CVarArgP", "packetId"]
+- !private ["s7CVarArgP", "payload"]
+- !private ["s7CVarArgP", "sessionId"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "toHex"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "toHex"]
+- !private ["So13ControlPacketC", "CoreConfiguration"]
+- ["So13ControlPacketC", "String"]
+- !private ["So13ControlPacketC", "ackIds"]
+- !private ["So13ControlPacketC", "ackRemoteSessionId"]
+- !private ["So13ControlPacketC", "code"]
+- ["So13ControlPacketC", "description"]
+- !private ["So13ControlPacketC", "isAck"]
+- !private ["So13ControlPacketC", "key"]
+- !private ["So13ControlPacketC", "packetId"]
+- !private ["So13ControlPacketC", "payload"]
+- !private ["So13ControlPacketC", "sessionId"]
+- !private ["9TunnelKit17CoreConfigurationC", "logsSensitiveData"]
+- !private ["s28CustomDebugStringConvertibleP", "CoreConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "ackIds"]
+- !private ["s28CustomDebugStringConvertibleP", "ackRemoteSessionId"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAck"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "packetId"]
+- !private ["s28CustomDebugStringConvertibleP", "payload"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionId"]
+- !private ["s28CustomDebugStringConvertibleP", "toHex"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "toHex"]
+- !private ["s23CustomStringConvertibleP", "CoreConfiguration"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "ackIds"]
+- !private ["s23CustomStringConvertibleP", "ackRemoteSessionId"]
+- ["s23CustomStringConvertibleP", "ackV1"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- ["s23CustomStringConvertibleP", "controlV1"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "dataV1"]
+- ["s23CustomStringConvertibleP", "dataV2"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hardResetClientV2"]
+- ["s23CustomStringConvertibleP", "hardResetServerV2"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAck"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "packetId"]
+- !private ["s23CustomStringConvertibleP", "payload"]
+- !private ["s23CustomStringConvertibleP", "sessionId"]
+- ["s23CustomStringConvertibleP", "softResetV1"]
+- !private ["s23CustomStringConvertibleP", "toHex"]
+- ["s23CustomStringConvertibleP", "unknown"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "count"]
+- ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "toHex"]
+- ["9TunnelKit7OpenVPNC10DataPacketC", "Data"]
+- ["9TunnelKit7OpenVPNC10DataPacketC", "init"]
+- ["9TunnelKit7OpenVPNC10DataPacketC", "pingString"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "toHex"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "toHex"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "toHex"]
+- ["SQ", "=="]
+- !private ["SQ", "CoreConfiguration"]
+- ["SQ", "Data"]
+- !private ["SQ", "OCCPacket"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "ackIds"]
+- !private ["SQ", "ackRemoteSessionId"]
+- ["SQ", "ackV1"]
+- !private ["SQ", "append"]
+- !private ["SQ", "code"]
+- ["SQ", "controlV1"]
+- !private ["SQ", "count"]
+- ["SQ", "dataV1"]
+- ["SQ", "dataV2"]
+- ["SQ", "description"]
+- ["SQ", "exit"]
+- ["SQ", "hardResetClientV2"]
+- ["SQ", "hardResetServerV2"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "isAck"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "key"]
+- !private ["SQ", "magicString"]
+- !private ["SQ", "packetId"]
+- !private ["SQ", "payload"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "sessionId"]
+- ["SQ", "softResetV1"]
+- !private ["SQ", "toHex"]
+- ["SQ", "unknown"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- ["SH", "=="]
+- !private ["SH", "CoreConfiguration"]
+- ["SH", "Data"]
+- !private ["SH", "OCCPacket"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "ackIds"]
+- !private ["SH", "ackRemoteSessionId"]
+- ["SH", "ackV1"]
+- !private ["SH", "append"]
+- !private ["SH", "code"]
+- ["SH", "controlV1"]
+- !private ["SH", "count"]
+- ["SH", "dataV1"]
+- ["SH", "dataV2"]
+- ["SH", "description"]
+- ["SH", "exit"]
+- ["SH", "hardResetClientV2"]
+- ["SH", "hardResetServerV2"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "isAck"]
+- !private ["SH", "joined"]
+- !private ["SH", "key"]
+- !private ["SH", "magicString"]
+- !private ["SH", "packetId"]
+- !private ["SH", "payload"]
+- ["SH", "rawValue"]
+- !private ["SH", "sessionId"]
+- ["SH", "softResetV1"]
+- !private ["SH", "toHex"]
+- ["SH", "unknown"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "joined"]
+- !private ["SM", "toHex"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "toHex"]
+- !private ["So8NSObjectC", "CoreConfiguration"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "ackIds"]
+- !private ["So8NSObjectC", "ackRemoteSessionId"]
+- !private ["So8NSObjectC", "code"]
+- ["So8NSObjectC", "description"]
+- !private ["So8NSObjectC", "isAck"]
+- !private ["So8NSObjectC", "key"]
+- !private ["So8NSObjectC", "packetId"]
+- !private ["So8NSObjectC", "payload"]
+- !private ["So8NSObjectC", "sessionId"]
+- !private ["So8NSObjectP", "CoreConfiguration"]
+- !private ["So8NSObjectP", "ackIds"]
+- !private ["So8NSObjectP", "ackRemoteSessionId"]
+- !private ["So8NSObjectP", "code"]
+- !private ["So8NSObjectP", "isAck"]
+- !private ["So8NSObjectP", "key"]
+- !private ["So8NSObjectP", "packetId"]
+- !private ["So8NSObjectP", "payload"]
+- !private ["So8NSObjectP", "sessionId"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "=="]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "Data"]
+- !private ["9TunnelKit7OpenVPNC9OCCPacketO", "OCCPacket"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "RawValue"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "_Default_RawValue"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "_rawHashValue"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "deinit"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "exit"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "hash"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "hashValue"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "init"]
+- !private ["9TunnelKit7OpenVPNC9OCCPacketO", "magicString"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "rawValue"]
+- ["9TunnelKit7OpenVPNC9OCCPacketO", "serialized"]
+- ["9TunnelKit7OpenVPNC", "Data"]
+- ["9TunnelKit7OpenVPNC", "DataPacket"]
+- ["9TunnelKit7OpenVPNC", "OCCPacket"]
+- ["9TunnelKit7OpenVPNC", "UInt8"]
+- ["So10PacketCodeV", "String"]
+- ["So10PacketCodeV", "ackV1"]
+- ["So10PacketCodeV", "controlV1"]
+- ["So10PacketCodeV", "dataV1"]
+- ["So10PacketCodeV", "dataV2"]
+- ["So10PacketCodeV", "deinit"]
+- ["So10PacketCodeV", "description"]
+- ["So10PacketCodeV", "hardResetClientV2"]
+- ["So10PacketCodeV", "hardResetServerV2"]
+- ["So10PacketCodeV", "softResetV1"]
+- ["So10PacketCodeV", "unknown"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "toHex"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "toHex"]
+- ["SY", "=="]
+- ["SY", "Data"]
+- !private ["SY", "OCCPacket"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "ackV1"]
+- ["SY", "controlV1"]
+- ["SY", "dataV1"]
+- ["SY", "dataV2"]
+- ["SY", "description"]
+- ["SY", "exit"]
+- ["SY", "hardResetClientV2"]
+- ["SY", "hardResetServerV2"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "magicString"]
+- ["SY", "rawValue"]
+- ["SY", "softResetV1"]
+- ["SY", "unknown"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "toHex"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "toHex"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CoreConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ackIds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ackRemoteSessionId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAck"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "packetId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "payload"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionId"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "toHex"]
+depends-nominal:
+- !private "Sa"
+- "SK"
+- !private "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "So13ControlPacketC"
+- !private "9TunnelKit17CoreConfigurationC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "9TunnelKit7OpenVPNC10DataPacketC"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "9TunnelKit7OpenVPNC9OCCPacketO"
+- "9TunnelKit7OpenVPNC"
+- "So10PacketCodeV"
+- "Sk"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/TunnelKit/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Versions/A/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/TunnelKit.build/unextended-module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/SwiftyBeaver.build/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5d1737d8717555b8652537484f6d771c"

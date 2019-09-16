@@ -1,0 +1,489 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InterfaceObserver"
+provides-nominal:
+- "9TunnelKit17InterfaceObserverC"
+provides-member:
+- ["So18NSNotificationNamea", ""]
+- ["9TunnelKit17InterfaceObserverC", ""]
+- ["So18NSNotificationNamea", "InterfaceObserverDidDetectWifiChange"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "DispatchQueue"
+- !private "DispatchSource"
+- "DispatchSourceTimer"
+- "InterfaceObserver"
+- "NSNotification"
+- "NSObject"
+- !private "NotificationCenter"
+- "String"
+- "SwiftyBeaver"
+- !private "UInt"
+- !private "log"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "seconds"]
+- !private ["SK", "maskedDescription"]
+- !private ["SB", "seconds"]
+- !private ["s7CVarArgP", "DispatchSource"]
+- ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "TimerFlags"]
+- !private ["s7CVarArgP", "UInt"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "currentWifiNetworkName"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "fireWifiChangeObserver"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lastWifiName"]
+- !private ["s7CVarArgP", "log"]
+- !private ["s7CVarArgP", "makeTimerSource"]
+- !private ["s7CVarArgP", "maskedDescription"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "queue"]
+- !private ["s7CVarArgP", "seconds"]
+- !private ["s7CVarArgP", "timer"]
+- !private ["Sl", "maskedDescription"]
+- !private ["SL", "maskedDescription"]
+- !private ["SL", "now"]
+- !private ["SL", "seconds"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchSource"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "TimerFlags"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "currentWifiNetworkName"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "fireWifiChangeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastWifiName"]
+- !private ["s28CustomDebugStringConvertibleP", "log"]
+- !private ["s28CustomDebugStringConvertibleP", "makeTimerSource"]
+- !private ["s28CustomDebugStringConvertibleP", "maskedDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "queue"]
+- !private ["s28CustomDebugStringConvertibleP", "seconds"]
+- !private ["s28CustomDebugStringConvertibleP", "timer"]
+- !private ["s17CustomReflectableP", "maskedDescription"]
+- !private ["s17CustomReflectableP", "seconds"]
+- !private ["s23CustomStringConvertibleP", "DispatchSource"]
+- ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "TimerFlags"]
+- !private ["s23CustomStringConvertibleP", "UInt"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "currentWifiNetworkName"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "fireWifiChangeObserver"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastWifiName"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "makeTimerSource"]
+- !private ["s23CustomStringConvertibleP", "maskedDescription"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "queue"]
+- !private ["s23CustomStringConvertibleP", "seconds"]
+- !private ["s23CustomStringConvertibleP", "timer"]
+- !private ["Se", "maskedDescription"]
+- !private ["Se", "seconds"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "TimerFlags"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "makeTimerSource"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So18OS_dispatch_sourceC", "TimerFlags"]
+- !private ["So18OS_dispatch_sourceC", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_vnodeP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_vnodeP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_recvP", "TimerFlags"]
+- !private ["So28OS_dispatch_source_mach_recvP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_sendP", "TimerFlags"]
+- !private ["So28OS_dispatch_source_mach_sendP", "makeTimerSource"]
+- !private ["So33OS_dispatch_source_memorypressureP", "TimerFlags"]
+- !private ["So33OS_dispatch_source_memorypressureP", "makeTimerSource"]
+- !private ["So23OS_dispatch_source_procP", "TimerFlags"]
+- !private ["So23OS_dispatch_source_procP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "TimerFlags"]
+- !private ["So18OS_dispatch_sourceP", "cancel"]
+- !private ["So18OS_dispatch_sourceP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "resume"]
+- !private ["So18OS_dispatch_sourceP", "schedule"]
+- !private ["So18OS_dispatch_sourceP", "setEventHandler"]
+- !private ["So23OS_dispatch_source_readP", "TimerFlags"]
+- !private ["So23OS_dispatch_source_readP", "makeTimerSource"]
+- !private ["So25OS_dispatch_source_signalP", "TimerFlags"]
+- !private ["So25OS_dispatch_source_signalP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_timerP", "cancel"]
+- !private ["So24OS_dispatch_source_timerP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "resume"]
+- !private ["So24OS_dispatch_source_timerP", "schedule"]
+- !private ["So24OS_dispatch_source_timerP", "setEventHandler"]
+- !private ["So27OS_dispatch_source_data_addP", "TimerFlags"]
+- !private ["So27OS_dispatch_source_data_addP", "makeTimerSource"]
+- !private ["So26OS_dispatch_source_data_orP", "TimerFlags"]
+- !private ["So26OS_dispatch_source_data_orP", "makeTimerSource"]
+- !private ["So31OS_dispatch_source_data_replaceP", "TimerFlags"]
+- !private ["So31OS_dispatch_source_data_replaceP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_writeP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_writeP", "makeTimerSource"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["8Dispatch0A12TimeIntervalO", "seconds"]
+- !private ["Sd", "seconds"]
+- !private ["SE", "maskedDescription"]
+- !private ["SE", "seconds"]
+- !private ["SQ", "DispatchSource"]
+- !private ["SQ", "InterfaceObserverDidDetectWifiChange"]
+- ["SQ", "NSNotification"]
+- ["SQ", "Name"]
+- !private ["SQ", "NotificationCenter"]
+- !private ["SQ", "TimerFlags"]
+- !private ["SQ", "UInt"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "currentWifiNetworkName"]
+- !private ["SQ", "default"]
+- !private ["SQ", "fireWifiChangeObserver"]
+- ["SQ", "init"]
+- !private ["SQ", "lastWifiName"]
+- !private ["SQ", "log"]
+- !private ["SQ", "makeTimerSource"]
+- !private ["SQ", "maskedDescription"]
+- !private ["SQ", "now"]
+- !private ["SQ", "post"]
+- !private ["SQ", "queue"]
+- !private ["SQ", "seconds"]
+- !private ["SQ", "timer"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "maskedDescription"]
+- !private ["s25ExpressibleByFloatLiteralP", "seconds"]
+- !private ["s27ExpressibleByIntegerLiteralP", "seconds"]
+- !private ["s32ExpressibleByStringInterpolationP", "maskedDescription"]
+- !private ["s26ExpressibleByStringLiteralP", "maskedDescription"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "maskedDescription"]
+- !private ["SF", "seconds"]
+- !private ["SH", "DispatchSource"]
+- !private ["SH", "InterfaceObserverDidDetectWifiChange"]
+- ["SH", "NSNotification"]
+- ["SH", "Name"]
+- !private ["SH", "NotificationCenter"]
+- !private ["SH", "TimerFlags"]
+- !private ["SH", "UInt"]
+- ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "currentWifiNetworkName"]
+- !private ["SH", "default"]
+- !private ["SH", "fireWifiChangeObserver"]
+- ["SH", "init"]
+- !private ["SH", "lastWifiName"]
+- !private ["SH", "log"]
+- !private ["SH", "makeTimerSource"]
+- !private ["SH", "maskedDescription"]
+- !private ["SH", "post"]
+- !private ["SH", "queue"]
+- !private ["SH", "seconds"]
+- !private ["SH", "timer"]
+- ["9TunnelKit17InterfaceObserverC", "DispatchQueue"]
+- !private ["9TunnelKit17InterfaceObserverC", "DispatchSource"]
+- ["9TunnelKit17InterfaceObserverC", "DispatchSourceTimer"]
+- !private ["9TunnelKit17InterfaceObserverC", "NotificationCenter"]
+- ["9TunnelKit17InterfaceObserverC", "String"]
+- !private ["9TunnelKit17InterfaceObserverC", "UInt"]
+- ["9TunnelKit17InterfaceObserverC", "currentWifiNetworkName"]
+- ["9TunnelKit17InterfaceObserverC", "deinit"]
+- !private ["9TunnelKit17InterfaceObserverC", "fireWifiChangeObserver"]
+- ["9TunnelKit17InterfaceObserverC", "init"]
+- !private ["9TunnelKit17InterfaceObserverC", "lastWifiName"]
+- !private ["9TunnelKit17InterfaceObserverC", "log"]
+- !private ["9TunnelKit17InterfaceObserverC", "queue"]
+- ["9TunnelKit17InterfaceObserverC", "start"]
+- ["9TunnelKit17InterfaceObserverC", "stop"]
+- !private ["9TunnelKit17InterfaceObserverC", "timer"]
+- !private ["s25LosslessStringConvertibleP", "maskedDescription"]
+- !private ["s25LosslessStringConvertibleP", "seconds"]
+- !private ["s10MirrorPathP", "maskedDescription"]
+- ["So8NSCodingP", "Name"]
+- !private ["So8NSCodingP", "maskedDescription"]
+- ["So9NSCopyingP", "Name"]
+- !private ["So9NSCopyingP", "maskedDescription"]
+- !private ["So21NSItemProviderReadingP", "maskedDescription"]
+- !private ["So21NSItemProviderWritingP", "maskedDescription"]
+- !private ["So16NSMutableCopyingP", "maskedDescription"]
+- ["So14NSNotificationC", "Name"]
+- ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "DispatchSource"]
+- ["So8NSObjectC", "DispatchSourceTimer"]
+- ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TimerFlags"]
+- !private ["So8NSObjectC", "UInt"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "currentWifiNetworkName"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "fireWifiChangeObserver"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lastWifiName"]
+- !private ["So8NSObjectC", "log"]
+- !private ["So8NSObjectC", "makeTimerSource"]
+- !private ["So8NSObjectC", "maskedDescription"]
+- !private ["So8NSObjectC", "post"]
+- ["So8NSObjectC", "queue"]
+- ["So8NSObjectC", "start"]
+- ["So8NSObjectC", "stop"]
+- ["So8NSObjectC", "timer"]
+- !private ["So8NSObjectP", "DispatchSource"]
+- ["So8NSObjectP", "Name"]
+- !private ["So8NSObjectP", "NotificationCenter"]
+- !private ["So8NSObjectP", "TimerFlags"]
+- !private ["So8NSObjectP", "UInt"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "currentWifiNetworkName"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "fireWifiChangeObserver"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lastWifiName"]
+- !private ["So8NSObjectP", "log"]
+- !private ["So8NSObjectP", "makeTimerSource"]
+- !private ["So8NSObjectP", "maskedDescription"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "queue"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "schedule"]
+- !private ["So8NSObjectP", "setEventHandler"]
+- !private ["So8NSObjectP", "timer"]
+- !private ["So19NSPasteboardReadingP", "maskedDescription"]
+- !private ["So19NSPasteboardWritingP", "maskedDescription"]
+- !private ["So14NSSecureCodingP", "maskedDescription"]
+- !private ["So8NSStringC", "maskedDescription"]
+- ["So18NSNotificationNamea", "InterfaceObserverDidDetectWifiChange"]
+- ["So18NSNotificationNamea", "NSNotification"]
+- ["So18NSNotificationNamea", "init"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["Sj", "seconds"]
+- !private ["So9OS_objectC", "TimerFlags"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "makeTimerSource"]
+- !private ["s9OptionSetP", "init"]
+- !private ["Sm", "maskedDescription"]
+- !private ["SY", "InterfaceObserverDidDetectWifiChange"]
+- ["SY", "NSNotification"]
+- ["SY", "init"]
+- !private ["s10SIMDScalarP", "seconds"]
+- !private ["ST", "maskedDescription"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s13SignedNumericP", "seconds"]
+- !private ["Sx", "seconds"]
+- !private ["SS", "maskedDescription"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "maskedDescription"]
+- !private ["12SwiftyBeaverAAC", "debug"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "maskedDescription"]
+- !private ["s20TextOutputStreamableP", "maskedDescription"]
+- !private ["s20TextOutputStreamableP", "seconds"]
+- !private ["So18OS_dispatch_sourceC8DispatchE10TimerFlagsV", "init"]
+- !private ["s15_CVarArgAlignedP", "seconds"]
+- !private ["s22_CVarArgPassedAsDoubleP", "seconds"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "maskedDescription"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "seconds"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "maskedDescription"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "seconds"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "seconds"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "maskedDescription"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "maskedDescription"]
+- !private ["s19_HasContiguousBytesP", "maskedDescription"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "InterfaceObserverDidDetectWifiChange"]
+- ["s35_HasCustomAnyHashableRepresentationP", "NSNotification"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "maskedDescription"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "seconds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchSource"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimerFlags"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentWifiNetworkName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fireWifiChangeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastWifiName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "log"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeTimerSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maskedDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timer"]
+- !private ["s21_ObjectiveCBridgeableP", "InterfaceObserverDidDetectWifiChange"]
+- ["s21_ObjectiveCBridgeableP", "NSNotification"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "maskedDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "seconds"]
+- !private ["s20_SwiftNewtypeWrapperP", "InterfaceObserverDidDetectWifiChange"]
+- ["s20_SwiftNewtypeWrapperP", "NSNotification"]
+- ["s20_SwiftNewtypeWrapperP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "SB"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "So18OS_dispatch_sourceC"
+- !private "So24OS_dispatch_source_vnodeP"
+- !private "So28OS_dispatch_source_mach_recvP"
+- !private "So28OS_dispatch_source_mach_sendP"
+- !private "So33OS_dispatch_source_memorypressureP"
+- !private "So23OS_dispatch_source_procP"
+- !private "So18OS_dispatch_sourceP"
+- !private "So23OS_dispatch_source_readP"
+- !private "So25OS_dispatch_source_signalP"
+- !private "So24OS_dispatch_source_timerP"
+- !private "So27OS_dispatch_source_data_addP"
+- !private "So26OS_dispatch_source_data_orP"
+- !private "So31OS_dispatch_source_data_replaceP"
+- !private "So24OS_dispatch_source_writeP"
+- !private "8Dispatch0A4TimeV"
+- !private "8Dispatch0A12TimeIntervalO"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- "9TunnelKit17InterfaceObserverC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So14NSNotificationC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So18NSNotificationNamea"
+- !private "So20NSNotificationCenterC"
+- !private "Sj"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "Sm"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "12SwiftyBeaverAAC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So18OS_dispatch_sourceC8DispatchE10TimerFlagsV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/TunnelKit/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Versions/A/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/TunnelKit.build/unextended-module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/SwiftyBeaver.build/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "16837b3f72506df62c1c3c4712d79ac1"

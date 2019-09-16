@@ -1,0 +1,392 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "9ShenyeVPN11AppDelegateC"
+provides-member:
+- ["9ShenyeVPN11AppDelegateC", ""]
+provides-dynamic-lookup:
+- "applicationDidFinishLaunching"
+- "applicationWillTerminate"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- !private "ConsoleDestination"
+- "NSApplicationDelegate"
+- "NSObject"
+- "Notification"
+- !private "StringLiteralType"
+- "SwiftyBeaver"
+- !private "log"
+depends-member:
+- !private ["9ShenyeVPN11AppDelegateC", "ConsoleDestination"]
+- ["9ShenyeVPN11AppDelegateC", "Notification"]
+- ["9ShenyeVPN11AppDelegateC", "application"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDidBecomeActive"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDidChangeOcclusionState"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDidChangeScreenParameters"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDidFinishLaunching"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDidHide"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDidResignActive"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDidUnhide"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDidUpdate"]
+- ["9ShenyeVPN11AppDelegateC", "applicationDockMenu"]
+- ["9ShenyeVPN11AppDelegateC", "applicationOpenUntitledFile"]
+- ["9ShenyeVPN11AppDelegateC", "applicationShouldHandleReopen"]
+- ["9ShenyeVPN11AppDelegateC", "applicationShouldOpenUntitledFile"]
+- ["9ShenyeVPN11AppDelegateC", "applicationShouldTerminate"]
+- ["9ShenyeVPN11AppDelegateC", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["9ShenyeVPN11AppDelegateC", "applicationWillBecomeActive"]
+- ["9ShenyeVPN11AppDelegateC", "applicationWillFinishLaunching"]
+- ["9ShenyeVPN11AppDelegateC", "applicationWillHide"]
+- ["9ShenyeVPN11AppDelegateC", "applicationWillResignActive"]
+- ["9ShenyeVPN11AppDelegateC", "applicationWillTerminate"]
+- ["9ShenyeVPN11AppDelegateC", "applicationWillUnhide"]
+- ["9ShenyeVPN11AppDelegateC", "applicationWillUpdate"]
+- ["9ShenyeVPN11AppDelegateC", "deinit"]
+- ["9ShenyeVPN11AppDelegateC", "init"]
+- !private ["9ShenyeVPN11AppDelegateC", "log"]
+- !private ["12SwiftyBeaver15BaseDestinationC", "format"]
+- !private ["12SwiftyBeaver15BaseDestinationC", "init"]
+- !private ["12SwiftyBeaver15BaseDestinationC", "minLevel"]
+- !private ["s7CVarArgP", "ConsoleDestination"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "application"]
+- ["s7CVarArgP", "applicationDidBecomeActive"]
+- ["s7CVarArgP", "applicationDidChangeOcclusionState"]
+- ["s7CVarArgP", "applicationDidChangeScreenParameters"]
+- ["s7CVarArgP", "applicationDidFinishLaunching"]
+- ["s7CVarArgP", "applicationDidHide"]
+- ["s7CVarArgP", "applicationDidResignActive"]
+- ["s7CVarArgP", "applicationDidUnhide"]
+- ["s7CVarArgP", "applicationDidUpdate"]
+- ["s7CVarArgP", "applicationDockMenu"]
+- ["s7CVarArgP", "applicationOpenUntitledFile"]
+- ["s7CVarArgP", "applicationShouldHandleReopen"]
+- ["s7CVarArgP", "applicationShouldOpenUntitledFile"]
+- ["s7CVarArgP", "applicationShouldTerminate"]
+- ["s7CVarArgP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["s7CVarArgP", "applicationWillBecomeActive"]
+- ["s7CVarArgP", "applicationWillFinishLaunching"]
+- ["s7CVarArgP", "applicationWillHide"]
+- ["s7CVarArgP", "applicationWillResignActive"]
+- ["s7CVarArgP", "applicationWillTerminate"]
+- ["s7CVarArgP", "applicationWillUnhide"]
+- ["s7CVarArgP", "applicationWillUpdate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "log"]
+- !private ["12SwiftyBeaver18ConsoleDestinationC", "format"]
+- !private ["12SwiftyBeaver18ConsoleDestinationC", "init"]
+- !private ["12SwiftyBeaver18ConsoleDestinationC", "minLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "ConsoleDestination"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "application"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidChangeOcclusionState"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidChangeScreenParameters"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidHide"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidUnhide"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidUpdate"]
+- ["s28CustomDebugStringConvertibleP", "applicationDockMenu"]
+- ["s28CustomDebugStringConvertibleP", "applicationOpenUntitledFile"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldHandleReopen"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldOpenUntitledFile"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldTerminate"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillHide"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillUnhide"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "ConsoleDestination"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "application"]
+- ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationDidChangeOcclusionState"]
+- ["s23CustomStringConvertibleP", "applicationDidChangeScreenParameters"]
+- ["s23CustomStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationDidHide"]
+- ["s23CustomStringConvertibleP", "applicationDidResignActive"]
+- ["s23CustomStringConvertibleP", "applicationDidUnhide"]
+- ["s23CustomStringConvertibleP", "applicationDidUpdate"]
+- ["s23CustomStringConvertibleP", "applicationDockMenu"]
+- ["s23CustomStringConvertibleP", "applicationOpenUntitledFile"]
+- ["s23CustomStringConvertibleP", "applicationShouldHandleReopen"]
+- ["s23CustomStringConvertibleP", "applicationShouldOpenUntitledFile"]
+- ["s23CustomStringConvertibleP", "applicationShouldTerminate"]
+- ["s23CustomStringConvertibleP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["s23CustomStringConvertibleP", "applicationWillBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationWillFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationWillHide"]
+- ["s23CustomStringConvertibleP", "applicationWillResignActive"]
+- ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- ["s23CustomStringConvertibleP", "applicationWillUnhide"]
+- ["s23CustomStringConvertibleP", "applicationWillUpdate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["SQ", "ConsoleDestination"]
+- ["SQ", ""]
+- ["SQ", "application"]
+- ["SQ", "applicationDidBecomeActive"]
+- ["SQ", "applicationDidChangeOcclusionState"]
+- ["SQ", "applicationDidChangeScreenParameters"]
+- ["SQ", "applicationDidFinishLaunching"]
+- ["SQ", "applicationDidHide"]
+- ["SQ", "applicationDidResignActive"]
+- ["SQ", "applicationDidUnhide"]
+- ["SQ", "applicationDidUpdate"]
+- ["SQ", "applicationDockMenu"]
+- ["SQ", "applicationOpenUntitledFile"]
+- ["SQ", "applicationShouldHandleReopen"]
+- ["SQ", "applicationShouldOpenUntitledFile"]
+- ["SQ", "applicationShouldTerminate"]
+- ["SQ", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["SQ", "applicationWillBecomeActive"]
+- ["SQ", "applicationWillFinishLaunching"]
+- ["SQ", "applicationWillHide"]
+- ["SQ", "applicationWillResignActive"]
+- ["SQ", "applicationWillTerminate"]
+- ["SQ", "applicationWillUnhide"]
+- ["SQ", "applicationWillUpdate"]
+- !private ["SQ", "debug"]
+- !private ["SQ", "format"]
+- !private ["SQ", "init"]
+- !private ["SQ", "log"]
+- !private ["SQ", "minLevel"]
+- !private ["SH", "ConsoleDestination"]
+- ["SH", ""]
+- ["SH", "application"]
+- ["SH", "applicationDidBecomeActive"]
+- ["SH", "applicationDidChangeOcclusionState"]
+- ["SH", "applicationDidChangeScreenParameters"]
+- ["SH", "applicationDidFinishLaunching"]
+- ["SH", "applicationDidHide"]
+- ["SH", "applicationDidResignActive"]
+- ["SH", "applicationDidUnhide"]
+- ["SH", "applicationDidUpdate"]
+- ["SH", "applicationDockMenu"]
+- ["SH", "applicationOpenUntitledFile"]
+- ["SH", "applicationShouldHandleReopen"]
+- ["SH", "applicationShouldOpenUntitledFile"]
+- ["SH", "applicationShouldTerminate"]
+- ["SH", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["SH", "applicationWillBecomeActive"]
+- ["SH", "applicationWillFinishLaunching"]
+- ["SH", "applicationWillHide"]
+- ["SH", "applicationWillResignActive"]
+- ["SH", "applicationWillTerminate"]
+- ["SH", "applicationWillUnhide"]
+- ["SH", "applicationWillUpdate"]
+- !private ["SH", "debug"]
+- !private ["SH", "format"]
+- !private ["SH", "init"]
+- !private ["SH", "log"]
+- !private ["SH", "minLevel"]
+- !private ["12SwiftyBeaverAAC5LevelO", "debug"]
+- !private ["So21NSApplicationDelegateP", "ConsoleDestination"]
+- ["So21NSApplicationDelegateP", ""]
+- ["So21NSApplicationDelegateP", "application"]
+- ["So21NSApplicationDelegateP", "applicationDidBecomeActive"]
+- ["So21NSApplicationDelegateP", "applicationDidChangeOcclusionState"]
+- ["So21NSApplicationDelegateP", "applicationDidChangeScreenParameters"]
+- ["So21NSApplicationDelegateP", "applicationDidFinishLaunching"]
+- ["So21NSApplicationDelegateP", "applicationDidHide"]
+- ["So21NSApplicationDelegateP", "applicationDidResignActive"]
+- ["So21NSApplicationDelegateP", "applicationDidUnhide"]
+- ["So21NSApplicationDelegateP", "applicationDidUpdate"]
+- ["So21NSApplicationDelegateP", "applicationDockMenu"]
+- ["So21NSApplicationDelegateP", "applicationOpenUntitledFile"]
+- ["So21NSApplicationDelegateP", "applicationShouldHandleReopen"]
+- ["So21NSApplicationDelegateP", "applicationShouldOpenUntitledFile"]
+- ["So21NSApplicationDelegateP", "applicationShouldTerminate"]
+- ["So21NSApplicationDelegateP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["So21NSApplicationDelegateP", "applicationWillBecomeActive"]
+- ["So21NSApplicationDelegateP", "applicationWillFinishLaunching"]
+- ["So21NSApplicationDelegateP", "applicationWillHide"]
+- ["So21NSApplicationDelegateP", "applicationWillResignActive"]
+- ["So21NSApplicationDelegateP", "applicationWillTerminate"]
+- ["So21NSApplicationDelegateP", "applicationWillUnhide"]
+- ["So21NSApplicationDelegateP", "applicationWillUpdate"]
+- !private ["So21NSApplicationDelegateP", "log"]
+- !private ["So8NSObjectC", "ConsoleDestination"]
+- ["So8NSObjectC", "Notification"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "application"]
+- ["So8NSObjectC", "applicationDidBecomeActive"]
+- ["So8NSObjectC", "applicationDidChangeOcclusionState"]
+- ["So8NSObjectC", "applicationDidChangeScreenParameters"]
+- ["So8NSObjectC", "applicationDidFinishLaunching"]
+- ["So8NSObjectC", "applicationDidHide"]
+- ["So8NSObjectC", "applicationDidResignActive"]
+- ["So8NSObjectC", "applicationDidUnhide"]
+- ["So8NSObjectC", "applicationDidUpdate"]
+- ["So8NSObjectC", "applicationDockMenu"]
+- ["So8NSObjectC", "applicationOpenUntitledFile"]
+- ["So8NSObjectC", "applicationShouldHandleReopen"]
+- ["So8NSObjectC", "applicationShouldOpenUntitledFile"]
+- ["So8NSObjectC", "applicationShouldTerminate"]
+- ["So8NSObjectC", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["So8NSObjectC", "applicationWillBecomeActive"]
+- ["So8NSObjectC", "applicationWillFinishLaunching"]
+- ["So8NSObjectC", "applicationWillHide"]
+- ["So8NSObjectC", "applicationWillResignActive"]
+- ["So8NSObjectC", "applicationWillTerminate"]
+- ["So8NSObjectC", "applicationWillUnhide"]
+- ["So8NSObjectC", "applicationWillUpdate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "log"]
+- !private ["So8NSObjectP", "ConsoleDestination"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "application"]
+- ["So8NSObjectP", "applicationDidBecomeActive"]
+- ["So8NSObjectP", "applicationDidChangeOcclusionState"]
+- ["So8NSObjectP", "applicationDidChangeScreenParameters"]
+- ["So8NSObjectP", "applicationDidFinishLaunching"]
+- ["So8NSObjectP", "applicationDidHide"]
+- ["So8NSObjectP", "applicationDidResignActive"]
+- ["So8NSObjectP", "applicationDidUnhide"]
+- ["So8NSObjectP", "applicationDidUpdate"]
+- ["So8NSObjectP", "applicationDockMenu"]
+- ["So8NSObjectP", "applicationOpenUntitledFile"]
+- ["So8NSObjectP", "applicationShouldHandleReopen"]
+- ["So8NSObjectP", "applicationShouldOpenUntitledFile"]
+- ["So8NSObjectP", "applicationShouldTerminate"]
+- ["So8NSObjectP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["So8NSObjectP", "applicationWillBecomeActive"]
+- ["So8NSObjectP", "applicationWillFinishLaunching"]
+- ["So8NSObjectP", "applicationWillHide"]
+- ["So8NSObjectP", "applicationWillResignActive"]
+- ["So8NSObjectP", "applicationWillTerminate"]
+- ["So8NSObjectP", "applicationWillUnhide"]
+- ["So8NSObjectP", "applicationWillUpdate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "log"]
+- !private ["SY", "debug"]
+- !private ["12SwiftyBeaverAAC", "addDestination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConsoleDestination"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidChangeOcclusionState"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidChangeScreenParameters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidHide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidUnhide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidUpdate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDockMenu"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationOpenUntitledFile"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldHandleReopen"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldOpenUntitledFile"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldTerminate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillHide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillUnhide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "log"]
+depends-nominal:
+- "9ShenyeVPN11AppDelegateC"
+- !private "12SwiftyBeaver15BaseDestinationC"
+- "s7CVarArgP"
+- !private "12SwiftyBeaver18ConsoleDestinationC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "12SwiftyBeaverAAC5LevelO"
+- "So21NSApplicationDelegateP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "12SwiftyBeaverAAC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Modules/SSLService.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSocket/Socket.framework/Modules/Socket.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/TunnelKit/TunnelKit.framework/Modules/TunnelKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Headers/BlueSSLService-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Headers/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSocket/Socket.framework/Headers/BlueSocket-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/TunnelKit/TunnelKit.framework/Headers/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Headers/SSLService-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSocket/Socket.framework/Headers/Socket-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/TunnelKit/TunnelKit.framework/Headers/TunnelKit-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/tunnelkit/Demo/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Project/tunnelkit/Demo/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSocket/Socket.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/TunnelKit/TunnelKit.framework/Modules/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6d781d4375ed24cadb14c6b3de3f8690"

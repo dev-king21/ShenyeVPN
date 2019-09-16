@@ -1,0 +1,158 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AF"
+provides-nominal:
+- "9Alamofire2AFO"
+provides-member:
+- ["9Alamofire2AFO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AF"
+- "Data"
+- "DataRequest"
+- "DownloadRequest"
+- "Encodable"
+- "FileManager"
+- "HTTPHeaders"
+- "HTTPMethod"
+- "InputStream"
+- "MultipartFormData"
+- "ParameterEncoder"
+- "ParameterEncoding"
+- "Parameters"
+- "RequestInterceptor"
+- !private "Session"
+- "UInt64"
+- "URL"
+- "URLConvertible"
+- !private "URLEncodedFormParameterEncoder"
+- !private "URLEncoding"
+- "URLRequestConvertible"
+- "UploadRequest"
+- "Void"
+depends-member:
+- ["9Alamofire2AFO", "Data"]
+- ["9Alamofire2AFO", "DataRequest"]
+- ["9Alamofire2AFO", "DownloadRequest"]
+- ["9Alamofire2AFO", "Encodable"]
+- ["9Alamofire2AFO", "FileManager"]
+- ["9Alamofire2AFO", "HTTPHeaders"]
+- ["9Alamofire2AFO", "HTTPMethod"]
+- ["9Alamofire2AFO", "InputStream"]
+- ["9Alamofire2AFO", "MultipartFormData"]
+- ["9Alamofire2AFO", "ParameterEncoder"]
+- ["9Alamofire2AFO", "ParameterEncoding"]
+- ["9Alamofire2AFO", "Parameters"]
+- ["9Alamofire2AFO", "RequestInterceptor"]
+- !private ["9Alamofire2AFO", "Session"]
+- ["9Alamofire2AFO", "UInt64"]
+- ["9Alamofire2AFO", "URL"]
+- ["9Alamofire2AFO", "URLConvertible"]
+- !private ["9Alamofire2AFO", "URLEncodedFormParameterEncoder"]
+- !private ["9Alamofire2AFO", "URLEncoding"]
+- ["9Alamofire2AFO", "URLRequestConvertible"]
+- ["9Alamofire2AFO", "UploadRequest"]
+- ["9Alamofire2AFO", "Void"]
+- ["9Alamofire2AFO", "download"]
+- ["9Alamofire2AFO", "request"]
+- ["9Alamofire2AFO", "upload"]
+- !private ["s7CVarArgP", "default"]
+- ["s28CustomDebugStringConvertibleP", "Destination"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "Destination"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["9Alamofire15DownloadRequestC", "Destination"]
+- ["SQ", "Destination"]
+- !private ["SQ", "default"]
+- !private ["SQ", "get"]
+- !private ["SQ", "post"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["9Alamofire10HTTPMethodO", "post"]
+- ["SH", "Destination"]
+- !private ["SH", "default"]
+- !private ["SH", "get"]
+- !private ["SH", "post"]
+- !private ["9Alamofire17MultipartFormDataC", "encodingMemoryThreshold"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectP", "default"]
+- !private ["9Alamofire16ParameterEncoderP", "default"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["SY", "get"]
+- !private ["SY", "post"]
+- ["9Alamofire7RequestC", "Destination"]
+- !private ["9Alamofire15RequestDelegateP", "default"]
+- !private ["9Alamofire15RequestDelegateP", "download"]
+- !private ["9Alamofire15RequestDelegateP", "request"]
+- !private ["9Alamofire15RequestDelegateP", "upload"]
+- !private ["9Alamofire7SessionC", "default"]
+- !private ["9Alamofire7SessionC", "deinit"]
+- !private ["9Alamofire7SessionC", "download"]
+- !private ["9Alamofire7SessionC", "request"]
+- !private ["9Alamofire7SessionC", "upload"]
+- !private ["9Alamofire20SessionStateProviderP", "default"]
+- !private ["9Alamofire20SessionStateProviderP", "download"]
+- !private ["9Alamofire20SessionStateProviderP", "request"]
+- !private ["9Alamofire20SessionStateProviderP", "upload"]
+- !private ["9Alamofire30URLEncodedFormParameterEncoderC", "default"]
+- !private ["9Alamofire30URLEncodedFormParameterEncoderC", "deinit"]
+- !private ["9Alamofire11URLEncodingV", "default"]
+- !private ["9Alamofire11URLEncodingV", "deinit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+depends-nominal:
+- "9Alamofire2AFO"
+- !private "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "9Alamofire15DownloadRequestC"
+- "SQ"
+- !private "So13NSFileManagerC"
+- !private "9Alamofire10HTTPMethodO"
+- "SH"
+- !private "9Alamofire17MultipartFormDataC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "9Alamofire16ParameterEncoderP"
+- !private "9Alamofire17ParameterEncodingP"
+- !private "SY"
+- "9Alamofire7RequestC"
+- !private "9Alamofire15RequestDelegateP"
+- !private "9Alamofire7SessionC"
+- !private "9Alamofire20SessionStateProviderP"
+- !private "9Alamofire30URLEncodedFormParameterEncoderC"
+- !private "9Alamofire11URLEncodingV"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/Alamofire.build/unextended-module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9e1dc77e89b10a8d4922269998f10b20"

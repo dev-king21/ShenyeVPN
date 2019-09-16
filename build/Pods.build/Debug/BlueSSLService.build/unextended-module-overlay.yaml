@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Project/ShenyeStealthVPN/build/Pods.build/Debug/BlueSSLService.build/unextended-module.modulemap",
+    }]
+  }]
+}

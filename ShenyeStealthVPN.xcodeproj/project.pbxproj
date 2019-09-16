@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB6EEBA1F92D417005F6221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6EEB91F92D417005F6221 /* AppDelegate.swift */; };
+		0EB6EEBC1F92D417005F6221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6EEBB1F92D417005F6221 /* ViewController.swift */; };
+		0EB6EEBE1F92D417005F6221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB6EEBD1F92D417005F6221 /* Assets.xcassets */; };
+		0EB6EED01F92D43D005F6221 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6EECF1F92D43D005F6221 /* PacketTunnelProvider.swift */; };
+		0EB6EED41F92D43D005F6221 /* ShenyeVPNTunnelExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0EB6EECB1F92D43D005F6221 /* ShenyeVPNTunnelExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0EB6EEDA1F92D4BA005F6221 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB6EED91F92D4BA005F6221 /* NetworkExtension.framework */; };
+		0EE878F81F936469002A0D58 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB6EED91F92D4BA005F6221 /* NetworkExtension.framework */; };
+		68C2C36443997850448D7D80 /* Pods_ShenyeVPNTunnelExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D800509742C24CF8736C06 /* Pods_ShenyeVPNTunnelExtension.framework */; };
+		AA344164BA4D369824AD23C1 /* Pods_ShenyeVPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06DFC3D724D4272813BD59B /* Pods_ShenyeVPN.framework */; };
+		F13C4B6222A9FD8100E02C76 /* cert.pem in Resources */ = {isa = PBXBuildFile; fileRef = F13C4B6022A9FD8100E02C76 /* cert.pem */; };
+		F13C4B6322A9FD8100E02C76 /* key.pem in Resources */ = {isa = PBXBuildFile; fileRef = F13C4B6122A9FD8100E02C76 /* key.pem */; };
+		F13C4B6A22A9FDE300E02C76 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C4B6422A9FDE300E02C76 /* Country.swift */; };
+		F13C4B6B22A9FDE300E02C76 /* TcpProxyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C4B6522A9FDE300E02C76 /* TcpProxyService.swift */; };
+		F13C4B6C22A9FDE300E02C76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C4B6622A9FDE300E02C76 /* LoginViewController.swift */; };
+		F13C4B6D22A9FDE300E02C76 /* TcpProxyThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C4B6722A9FDE300E02C76 /* TcpProxyThread.swift */; };
+		F13C4B6E22A9FDE300E02C76 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C4B6822A9FDE300E02C76 /* MainViewController.swift */; };
+		F13C4B6F22A9FDE300E02C76 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C4B6922A9FDE300E02C76 /* Server.swift */; };
+		F13C4B7722A9FF3B00E02C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C4B7622A9FF3B00E02C76 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EB6EED21F92D43D005F6221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EB39FC51F7424580023AFFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EB6EECA1F92D43D005F6221;
+			remoteInfo = BasicTunnelExtensionMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0EB6EED81F92D43D005F6221 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0EB6EED41F92D43D005F6221 /* ShenyeVPNTunnelExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07D800509742C24CF8736C06 /* Pods_ShenyeVPNTunnelExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShenyeVPNTunnelExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB6EEB71F92D417005F6221 /* ShenyeVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShenyeVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB6EEB91F92D417005F6221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EB6EEBB1F92D417005F6221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EB6EEBD1F92D417005F6221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EB6EEC21F92D417005F6221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB6EEC31F92D417005F6221 /* ShenyeVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShenyeVPN.entitlements; sourceTree = "<group>"; };
+		0EB6EECB1F92D43D005F6221 /* ShenyeVPNTunnelExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShenyeVPNTunnelExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB6EECE1F92D43D005F6221 /* ShenyeVPNTunnelExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShenyeVPNTunnelExtension.entitlements; sourceTree = "<group>"; };
+		0EB6EECF1F92D43D005F6221 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		0EB6EED11F92D43D005F6221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB6EED91F92D4BA005F6221 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
+		6116FA562B1B3C75EAE98E67 /* Pods-ShenyeVPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShenyeVPN.release.xcconfig"; path = "Target Support Files/Pods-ShenyeVPN/Pods-ShenyeVPN.release.xcconfig"; sourceTree = "<group>"; };
+		7F3AB8B29D61B02BC370AEFC /* Pods-ShenyeVPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShenyeVPN.debug.xcconfig"; path = "Target Support Files/Pods-ShenyeVPN/Pods-ShenyeVPN.debug.xcconfig"; sourceTree = "<group>"; };
+		8CD8D0957F7C28755D3EE1B9 /* Pods-ShenyeVPNTunnelExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShenyeVPNTunnelExtension.debug.xcconfig"; path = "Target Support Files/Pods-ShenyeVPNTunnelExtension/Pods-ShenyeVPNTunnelExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BEAA2F5531B2477B26E62F /* Pods-ShenyeVPNTunnelExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShenyeVPNTunnelExtension.release.xcconfig"; path = "Target Support Files/Pods-ShenyeVPNTunnelExtension/Pods-ShenyeVPNTunnelExtension.release.xcconfig"; sourceTree = "<group>"; };
+		E06DFC3D724D4272813BD59B /* Pods_ShenyeVPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShenyeVPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13C4B6022A9FD8100E02C76 /* cert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.pem; sourceTree = "<group>"; };
+		F13C4B6122A9FD8100E02C76 /* key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key.pem; sourceTree = "<group>"; };
+		F13C4B6422A9FDE300E02C76 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F13C4B6522A9FDE300E02C76 /* TcpProxyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpProxyService.swift; sourceTree = "<group>"; };
+		F13C4B6622A9FDE300E02C76 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F13C4B6722A9FDE300E02C76 /* TcpProxyThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpProxyThread.swift; sourceTree = "<group>"; };
+		F13C4B6822A9FDE300E02C76 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F13C4B6922A9FDE300E02C76 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		F13C4B7622A9FF3B00E02C76 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EB6EEB41F92D417005F6221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB6EEDA1F92D4BA005F6221 /* NetworkExtension.framework in Frameworks */,
+				AA344164BA4D369824AD23C1 /* Pods_ShenyeVPN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EB6EEC81F92D43D005F6221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE878F81F936469002A0D58 /* NetworkExtension.framework in Frameworks */,
+				68C2C36443997850448D7D80 /* Pods_ShenyeVPNTunnelExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB39FC41F7424580023AFFC = {
+			isa = PBXGroup;
+			children = (
+				F13C4B6022A9FD8100E02C76 /* cert.pem */,
+				F13C4B6122A9FD8100E02C76 /* key.pem */,
+				0EB6EEB81F92D417005F6221 /* ShenyeVPN */,
+				0EB6EECC1F92D43D005F6221 /* ShenyeVPNTunnelExtension */,
+				0EB39FCE1F7424580023AFFC /* Products */,
+				B850E57E641AD1B37E79BAB5 /* Frameworks */,
+				AF144975864AEDC23DDFB6C0 /* Pods */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		0EB39FCE1F7424580023AFFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EB6EEB71F92D417005F6221 /* ShenyeVPN.app */,
+				0EB6EECB1F92D43D005F6221 /* ShenyeVPNTunnelExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EB6EEB81F92D417005F6221 /* ShenyeVPN */ = {
+			isa = PBXGroup;
+			children = (
+				F13C4B7622A9FF3B00E02C76 /* Main.storyboard */,
+				F13C4B6422A9FDE300E02C76 /* Country.swift */,
+				F13C4B6622A9FDE300E02C76 /* LoginViewController.swift */,
+				F13C4B6822A9FDE300E02C76 /* MainViewController.swift */,
+				F13C4B6922A9FDE300E02C76 /* Server.swift */,
+				F13C4B6522A9FDE300E02C76 /* TcpProxyService.swift */,
+				F13C4B6722A9FDE300E02C76 /* TcpProxyThread.swift */,
+				0EB6EEB91F92D417005F6221 /* AppDelegate.swift */,
+				0EB6EEBB1F92D417005F6221 /* ViewController.swift */,
+				0EB6EEBD1F92D417005F6221 /* Assets.xcassets */,
+				0EB6EEC21F92D417005F6221 /* Info.plist */,
+				0EB6EEDB1F92D597005F6221 /* Supporting files */,
+			);
+			path = ShenyeVPN;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		0EB6EECC1F92D43D005F6221 /* ShenyeVPNTunnelExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0EB6EECF1F92D43D005F6221 /* PacketTunnelProvider.swift */,
+				0EB6EED11F92D43D005F6221 /* Info.plist */,
+				0EB6EECD1F92D43D005F6221 /* Supporting Files */,
+			);
+			path = ShenyeVPNTunnelExtension;
+			sourceTree = "<group>";
+		};
+		0EB6EECD1F92D43D005F6221 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EB6EECE1F92D43D005F6221 /* ShenyeVPNTunnelExtension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EB6EEDB1F92D597005F6221 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				0EB6EEC31F92D417005F6221 /* ShenyeVPN.entitlements */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		AF144975864AEDC23DDFB6C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F3AB8B29D61B02BC370AEFC /* Pods-ShenyeVPN.debug.xcconfig */,
+				6116FA562B1B3C75EAE98E67 /* Pods-ShenyeVPN.release.xcconfig */,
+				8CD8D0957F7C28755D3EE1B9 /* Pods-ShenyeVPNTunnelExtension.debug.xcconfig */,
+				C9BEAA2F5531B2477B26E62F /* Pods-ShenyeVPNTunnelExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B850E57E641AD1B37E79BAB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB6EED91F92D4BA005F6221 /* NetworkExtension.framework */,
+				E06DFC3D724D4272813BD59B /* Pods_ShenyeVPN.framework */,
+				07D800509742C24CF8736C06 /* Pods_ShenyeVPNTunnelExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EB6EEB61F92D417005F6221 /* ShenyeVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB6EEC61F92D417005F6221 /* Build configuration list for PBXNativeTarget "ShenyeVPN" */;
+			buildPhases = (
+				249A9F612F712FB9255196E3 /* [CP] Check Pods Manifest.lock */,
+				0EB6EEB31F92D417005F6221 /* Sources */,
+				0EB6EEB41F92D417005F6221 /* Frameworks */,
+				0EB6EEB51F92D417005F6221 /* Resources */,
+				0EB6EED81F92D43D005F6221 /* Embed App Extensions */,
+				926D5E5430873EE4DBC55969 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EB6EED31F92D43D005F6221 /* PBXTargetDependency */,
+			);
+			name = ShenyeVPN;
+			productName = BasicTunnelMac;
+			productReference = 0EB6EEB71F92D417005F6221 /* ShenyeVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EB6EECA1F92D43D005F6221 /* ShenyeVPNTunnelExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB6EED51F92D43D005F6221 /* Build configuration list for PBXNativeTarget "ShenyeVPNTunnelExtension" */;
+			buildPhases = (
+				3F4589F9A76D2E5119782849 /* [CP] Check Pods Manifest.lock */,
+				0EB6EEC71F92D43D005F6221 /* Sources */,
+				0EB6EEC81F92D43D005F6221 /* Frameworks */,
+				0EB6EEC91F92D43D005F6221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShenyeVPNTunnelExtension;
+			productName = BasicTunnelExtensionMac;
+			productReference = 0EB6EECB1F92D43D005F6221 /* ShenyeVPNTunnelExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EB39FC51F7424580023AFFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Davide De Rosa";
+				TargetAttributes = {
+					0EB6EEB61F92D417005F6221 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					0EB6EECA1F92D43D005F6221 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0EB39FC81F7424580023AFFC /* Build configuration list for PBXProject "ShenyeStealthVPN" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EB39FC41F7424580023AFFC;
+			productRefGroup = 0EB39FCE1F7424580023AFFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EB6EEB61F92D417005F6221 /* ShenyeVPN */,
+				0EB6EECA1F92D43D005F6221 /* ShenyeVPNTunnelExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EB6EEB51F92D417005F6221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13C4B6322A9FD8100E02C76 /* key.pem in Resources */,
+				0EB6EEBE1F92D417005F6221 /* Assets.xcassets in Resources */,
+				F13C4B6222A9FD8100E02C76 /* cert.pem in Resources */,
+				F13C4B7722A9FF3B00E02C76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EB6EEC91F92D43D005F6221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		249A9F612F712FB9255196E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShenyeVPN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4589F9A76D2E5119782849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShenyeVPNTunnelExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926D5E5430873EE4DBC55969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShenyeVPN/Pods-ShenyeVPN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BlueSSLService/SSLService.framework",
+				"${BUILT_PRODUCTS_DIR}/BlueSocket/Socket.framework",
+				"${PODS_ROOT}/OpenSSL-Apple/frameworks/MacOSX/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TunnelKit/TunnelKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSLService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Socket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TunnelKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShenyeVPN/Pods-ShenyeVPN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EB6EEB31F92D417005F6221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13C4B6E22A9FDE300E02C76 /* MainViewController.swift in Sources */,
+				0EB6EEBC1F92D417005F6221 /* ViewController.swift in Sources */,
+				F13C4B6A22A9FDE300E02C76 /* Country.swift in Sources */,
+				F13C4B6B22A9FDE300E02C76 /* TcpProxyService.swift in Sources */,
+				F13C4B6C22A9FDE300E02C76 /* LoginViewController.swift in Sources */,
+				F13C4B6D22A9FDE300E02C76 /* TcpProxyThread.swift in Sources */,
+				F13C4B6F22A9FDE300E02C76 /* Server.swift in Sources */,
+				0EB6EEBA1F92D417005F6221 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EB6EEC71F92D43D005F6221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB6EED01F92D43D005F6221 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EB6EED31F92D43D005F6221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EB6EECA1F92D43D005F6221 /* ShenyeVPNTunnelExtension */;
+			targetProxy = 0EB6EED21F92D43D005F6221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EB39FDD1F7424580023AFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		0EB39FDE1F7424580023AFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EB6EEC41F92D417005F6221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3AB8B29D61B02BC370AEFC /* Pods-ShenyeVPN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShenyeVPN/ShenyeVPN.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5362Y4AMXU;
+				INFOPLIST_FILE = "$(SRCROOT)/ShenyeVPN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenye.ymz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0EB6EEC51F92D417005F6221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6116FA562B1B3C75EAE98E67 /* Pods-ShenyeVPN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShenyeVPN/ShenyeVPN.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5362Y4AMXU;
+				INFOPLIST_FILE = "$(SRCROOT)/ShenyeVPN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenye.ymz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0EB6EED61F92D43D005F6221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD8D0957F7C28755D3EE1B9 /* Pods-ShenyeVPNTunnelExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShenyeVPNTunnelExtension/ShenyeVPNTunnelExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5362Y4AMXU;
+				INFOPLIST_FILE = ShenyeVPNTunnelExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenye.ymz.ShenyeVPNTunnelExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0EB6EED71F92D43D005F6221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9BEAA2F5531B2477B26E62F /* Pods-ShenyeVPNTunnelExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShenyeVPNTunnelExtension/ShenyeVPNTunnelExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5362Y4AMXU;
+				INFOPLIST_FILE = ShenyeVPNTunnelExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenye.ymz.ShenyeVPNTunnelExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EB39FC81F7424580023AFFC /* Build configuration list for PBXProject "ShenyeStealthVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB39FDD1F7424580023AFFC /* Debug */,
+				0EB39FDE1F7424580023AFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB6EEC61F92D417005F6221 /* Build configuration list for PBXNativeTarget "ShenyeVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB6EEC41F92D417005F6221 /* Debug */,
+				0EB6EEC51F92D417005F6221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB6EED51F92D43D005F6221 /* Build configuration list for PBXNativeTarget "ShenyeVPNTunnelExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB6EED61F92D43D005F6221 /* Debug */,
+				0EB6EED71F92D43D005F6221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EB39FC51F7424580023AFFC /* Project object */;
+}

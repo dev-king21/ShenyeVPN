@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "6d8f03363bfad98120dd5218f305c89a"
+build_time: [1559873269, 205721000]
+inputs:
+  "/Project/ShenyeStealthVPN/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1559872720, 193280787]

@@ -1,0 +1,440 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TcpProxyThread"
+provides-nominal:
+- "9ShenyeVPN14TcpProxyThreadC"
+provides-member:
+- ["9ShenyeVPN14TcpProxyThreadC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- !private "Data"
+- "DispatchQueue"
+- "Int"
+- "Int32"
+- !private "SSLService"
+- "Socket"
+- "String"
+- !private "TcpProxyService"
+- "TcpProxyThread"
+- !private "exit"
+- !private "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["9Alamofire0A8ExtendedP", "init"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s7CVarArgP", "values"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "values"]
+- !private ["SL", "init"]
+- !private ["10SSLServiceAAC13ConfigurationV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "values"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "values"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SD", "values"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["8Dispatch0A3QoSV", "background"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "values"]
+- !private ["SQ", "async"]
+- !private ["SQ", "background"]
+- !private ["SQ", "count"]
+- !private ["SQ", "default"]
+- !private ["SQ", "global"]
+- !private ["SQ", "inet"]
+- ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "stream"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "sync"]
+- !private ["SQ", "tcp"]
+- !private ["SQ", "values"]
+- !private ["6SocketAAC5ErrorV", "description"]
+- !private ["s5ErrorP", "description"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "async"]
+- !private ["SH", "count"]
+- !private ["SH", "default"]
+- !private ["SH", "global"]
+- !private ["SH", "inet"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "stream"]
+- !private ["SH", "subscript"]
+- !private ["SH", "sync"]
+- !private ["SH", "tcp"]
+- !private ["SH", "values"]
+- !private ["s5Int32V", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "global"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["6SocketAAC14ProtocolFamilyO", "inet"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["SY", "tcp"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["10SSLServiceAAC", "Configuration"]
+- !private ["10SSLServiceAAC", "init"]
+- !private ["6Socket18SSLServiceDelegateP", "Configuration"]
+- !private ["6Socket18SSLServiceDelegateP", "init"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "values"]
+- !private ["6SocketAAC9SignatureV", "description"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["6SocketAAC", "Error"]
+- !private ["6SocketAAC", "acceptClientConnection"]
+- !private ["6SocketAAC", "close"]
+- !private ["6SocketAAC", "connect"]
+- !private ["6SocketAAC", "create"]
+- !private ["6SocketAAC", "delegate"]
+- !private ["6SocketAAC", "listen"]
+- !private ["6SocketAAC", "read"]
+- !private ["6SocketAAC", "remoteHostname"]
+- !private ["6SocketAAC", "remotePort"]
+- !private ["6SocketAAC", "signature"]
+- !private ["6SocketAAC", "socketfd"]
+- !private ["6SocketAAC", "write"]
+- !private ["6SocketAAC0A8ProtocolO", "tcp"]
+- !private ["6Socket0A6ReaderP", "Error"]
+- !private ["6Socket0A6ReaderP", "acceptClientConnection"]
+- !private ["6Socket0A6ReaderP", "close"]
+- !private ["6Socket0A6ReaderP", "connect"]
+- !private ["6Socket0A6ReaderP", "create"]
+- !private ["6Socket0A6ReaderP", "delegate"]
+- !private ["6Socket0A6ReaderP", "listen"]
+- !private ["6Socket0A6ReaderP", "read"]
+- !private ["6Socket0A6ReaderP", "remoteHostname"]
+- !private ["6Socket0A6ReaderP", "remotePort"]
+- !private ["6Socket0A6ReaderP", "signature"]
+- !private ["6Socket0A6ReaderP", "socketfd"]
+- !private ["6Socket0A6ReaderP", "write"]
+- !private ["6SocketAAC0A4TypeO", "stream"]
+- !private ["6Socket0A6WriterP", "Error"]
+- !private ["6Socket0A6WriterP", "acceptClientConnection"]
+- !private ["6Socket0A6WriterP", "close"]
+- !private ["6Socket0A6WriterP", "connect"]
+- !private ["6Socket0A6WriterP", "create"]
+- !private ["6Socket0A6WriterP", "delegate"]
+- !private ["6Socket0A6WriterP", "listen"]
+- !private ["6Socket0A6WriterP", "read"]
+- !private ["6Socket0A6WriterP", "remoteHostname"]
+- !private ["6Socket0A6WriterP", "remotePort"]
+- !private ["6Socket0A6WriterP", "signature"]
+- !private ["6Socket0A6WriterP", "socketfd"]
+- !private ["6Socket0A6WriterP", "write"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["9ShenyeVPN15TcpProxyServiceC", "started"]
+- ["9ShenyeVPN14TcpProxyThreadC", "Bool"]
+- !private ["9ShenyeVPN14TcpProxyThreadC", "Data"]
+- ["9ShenyeVPN14TcpProxyThreadC", "DispatchQueue"]
+- ["9ShenyeVPN14TcpProxyThreadC", "Int"]
+- ["9ShenyeVPN14TcpProxyThreadC", "Int32"]
+- !private ["9ShenyeVPN14TcpProxyThreadC", "SSLService"]
+- ["9ShenyeVPN14TcpProxyThreadC", "Socket"]
+- ["9ShenyeVPN14TcpProxyThreadC", "String"]
+- !private ["9ShenyeVPN14TcpProxyThreadC", "TcpProxyService"]
+- !private ["9ShenyeVPN14TcpProxyThreadC", "TcpProxyThread"]
+- ["9ShenyeVPN14TcpProxyThreadC", "bufferSize"]
+- ["9ShenyeVPN14TcpProxyThreadC", "cert"]
+- ["9ShenyeVPN14TcpProxyThreadC", "connectedSockets"]
+- ["9ShenyeVPN14TcpProxyThreadC", "continueRunning"]
+- ["9ShenyeVPN14TcpProxyThreadC", "continueRunningValue"]
+- ["9ShenyeVPN14TcpProxyThreadC", "createStealthSocket"]
+- ["9ShenyeVPN14TcpProxyThreadC", "deinit"]
+- !private ["9ShenyeVPN14TcpProxyThreadC", "exit"]
+- ["9ShenyeVPN14TcpProxyThreadC", "init"]
+- ["9ShenyeVPN14TcpProxyThreadC", "is_last"]
+- ["9ShenyeVPN14TcpProxyThreadC", "key"]
+- ["9ShenyeVPN14TcpProxyThreadC", "listenPort"]
+- ["9ShenyeVPN14TcpProxyThreadC", "listenSocket"]
+- ["9ShenyeVPN14TcpProxyThreadC", "localVPNConnection"]
+- !private ["9ShenyeVPN14TcpProxyThreadC", "print"]
+- ["9ShenyeVPN14TcpProxyThreadC", "quitCommand"]
+- ["9ShenyeVPN14TcpProxyThreadC", "relayData"]
+- ["9ShenyeVPN14TcpProxyThreadC", "run"]
+- ["9ShenyeVPN14TcpProxyThreadC", "session_id"]
+- ["9ShenyeVPN14TcpProxyThreadC", "shutdownCommand"]
+- ["9ShenyeVPN14TcpProxyThreadC", "shutdownThread"]
+- ["9ShenyeVPN14TcpProxyThreadC", "socketLockQueue"]
+- ["9ShenyeVPN14TcpProxyThreadC", "tunnelHost"]
+- ["9ShenyeVPN14TcpProxyThreadC", "tunnelPort"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "values"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "values"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "9Alamofire0A8ExtendedP"
+- !private "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- !private "10SSLServiceAAC13ConfigurationV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "So18OS_dispatch_objectC"
+- !private "8Dispatch0A3QoSV"
+- "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "6SocketAAC5ErrorV"
+- !private "s5ErrorP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s5Int32V"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "6SocketAAC14ProtocolFamilyO"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "10SSLServiceAAC"
+- !private "6Socket18SSLServiceDelegateP"
+- "ST"
+- !private "6SocketAAC9SignatureV"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "6SocketAAC"
+- !private "6SocketAAC0A8ProtocolO"
+- !private "6Socket0A6ReaderP"
+- !private "6SocketAAC0A4TypeO"
+- !private "6Socket0A6WriterP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "9ShenyeVPN15TcpProxyServiceC"
+- "9ShenyeVPN14TcpProxyThreadC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Modules/SSLService.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSocket/Socket.framework/Modules/Socket.swiftmodule/x86_64.swiftmodule"
+- "/Project/ShenyeStealthVPN/build/Debug/TunnelKit/TunnelKit.framework/Modules/TunnelKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Headers/BlueSSLService-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Headers/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSocket/Socket.framework/Headers/BlueSocket-umbrella.h"
+- "/Project/ShenyeStealthVPN/build/Debug/TunnelKit/TunnelKit.framework/Headers/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Headers/SSLService-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSocket/Socket.framework/Headers/Socket-Swift.h"
+- "/Project/ShenyeStealthVPN/build/Debug/TunnelKit/TunnelKit.framework/Headers/TunnelKit-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/tunnelkit/Demo/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Project/tunnelkit/Demo/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSSLService/SSLService.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/BlueSocket/Socket.framework/Modules/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Debug/TunnelKit/TunnelKit.framework/Modules/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1c9d9984b34f8759e211d9c3eead6765"

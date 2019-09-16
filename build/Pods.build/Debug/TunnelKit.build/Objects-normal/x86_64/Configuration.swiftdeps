@@ -1,0 +1,653 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "9TunnelKit7OpenVPNC11CredentialsV"
+- "9TunnelKit7OpenVPNC6CipherO"
+- "9TunnelKit7OpenVPNC6DigestO"
+- "9TunnelKit7OpenVPNC13RoutingPolicyO"
+- "9TunnelKit7OpenVPNC20ConfigurationBuilderV"
+- "9TunnelKit7OpenVPNC13ConfigurationV"
+provides-member:
+- ["9TunnelKit7OpenVPNC", ""]
+- ["9TunnelKit7OpenVPNC11CredentialsV", ""]
+- ["9TunnelKit7OpenVPNC6CipherO", ""]
+- ["9TunnelKit7OpenVPNC6DigestO", ""]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", ""]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", ""]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", ""]
+- ["9TunnelKit7OpenVPNC", "Credentials"]
+- ["9TunnelKit7OpenVPNC", "Cipher"]
+- ["9TunnelKit7OpenVPNC", "Digest"]
+- ["9TunnelKit7OpenVPNC", "RoutingPolicy"]
+- ["9TunnelKit7OpenVPNC", "ConfigurationBuilder"]
+- ["9TunnelKit7OpenVPNC", "Configuration"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "builder"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "Codable"
+- "CustomStringConvertible"
+- "EndpointProtocol"
+- "Equatable"
+- "IPv4Settings"
+- "IPv6Settings"
+- "Int"
+- "OpenVPN"
+- "Proxy"
+- "String"
+- "TernaryPrecedence"
+- "TimeInterval"
+- "UInt32"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["SK", "hasSuffix"]
+- !private ["s7CVarArgP", "hasSuffix"]
+- ["9TunnelKit7OpenVPNC6CipherO", "=="]
+- ["9TunnelKit7OpenVPNC6CipherO", "Bool"]
+- ["9TunnelKit7OpenVPNC6CipherO", "Int"]
+- ["9TunnelKit7OpenVPNC6CipherO", "RawValue"]
+- ["9TunnelKit7OpenVPNC6CipherO", "String"]
+- ["9TunnelKit7OpenVPNC6CipherO", "_Default_RawValue"]
+- !private ["9TunnelKit7OpenVPNC6CipherO", "_findStringSwitchCase"]
+- ["9TunnelKit7OpenVPNC6CipherO", "_rawHashValue"]
+- ["9TunnelKit7OpenVPNC6CipherO", "aes128cbc"]
+- ["9TunnelKit7OpenVPNC6CipherO", "aes128gcm"]
+- ["9TunnelKit7OpenVPNC6CipherO", "aes192cbc"]
+- ["9TunnelKit7OpenVPNC6CipherO", "aes192gcm"]
+- ["9TunnelKit7OpenVPNC6CipherO", "aes256cbc"]
+- ["9TunnelKit7OpenVPNC6CipherO", "aes256gcm"]
+- ["9TunnelKit7OpenVPNC6CipherO", "deinit"]
+- ["9TunnelKit7OpenVPNC6CipherO", "description"]
+- ["9TunnelKit7OpenVPNC6CipherO", "embedsDigest"]
+- ["9TunnelKit7OpenVPNC6CipherO", "encode"]
+- ["9TunnelKit7OpenVPNC6CipherO", "genericName"]
+- ["9TunnelKit7OpenVPNC6CipherO", "hash"]
+- ["9TunnelKit7OpenVPNC6CipherO", "hashValue"]
+- ["9TunnelKit7OpenVPNC6CipherO", "init"]
+- ["9TunnelKit7OpenVPNC6CipherO", "keySize"]
+- ["9TunnelKit7OpenVPNC6CipherO", "rawValue"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "hasSuffix"]
+- !private ["SL", "hasSuffix"]
+- ["9TunnelKit7OpenVPNC20CompressionAlgorithmO", "deinit"]
+- ["9TunnelKit7OpenVPNC18CompressionFramingO", "deinit"]
+- ["9TunnelKit7OpenVPNC18CompressionFramingO", "disabled"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "Bool"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "Cipher"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "CompressionAlgorithm"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "CompressionFraming"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "CryptoContainer"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "Digest"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "EndpointProtocol"]
+- !private ["9TunnelKit7OpenVPNC13ConfigurationV", "Fallback"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "IPv4Settings"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "IPv6Settings"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "Int"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "OpenVPN"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "Proxy"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "RoutingPolicy"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "String"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "TLSWrap"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "TimeInterval"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "UInt32"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "authToken"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "builder"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "ca"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "checksEKU"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "cipher"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "clientCertificate"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "clientKey"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "compressionAlgorithm"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "compressionFraming"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "deinit"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "digest"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "dnsServers"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "encode"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "endpointProtocols"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "fallbackCipher"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "fallbackCompressionFraming"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "fallbackDigest"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "hostname"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "httpProxy"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "httpsProxy"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "init"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "ipv4"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "ipv6"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "keepAliveInterval"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "peerId"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "proxyBypassDomains"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "randomizeEndpoint"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "renegotiatesAfter"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "routingPolicies"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "searchDomain"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "tlsSecurityLevel"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "tlsWrap"]
+- ["9TunnelKit7OpenVPNC13ConfigurationV", "usesPIAPatches"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "Bool"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "Cipher"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "CompressionAlgorithm"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "CompressionFraming"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "Configuration"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "CryptoContainer"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "Digest"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "EndpointProtocol"]
+- !private ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "Fallback"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "IPv4Settings"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "IPv6Settings"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "Int"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "Proxy"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "RoutingPolicy"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "String"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "TLSWrap"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "TimeInterval"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "UInt32"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "authToken"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "build"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "ca"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "checksEKU"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "cipher"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "clientCertificate"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "clientKey"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "compressionAlgorithm"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "compressionFraming"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "digest"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "dnsServers"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "endpointProtocols"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "fallbackCipher"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "fallbackCompressionFraming"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "fallbackDigest"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "hostname"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "httpProxy"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "httpsProxy"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "init"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "ipv4"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "ipv6"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "keepAliveInterval"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "peerId"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "proxyBypassDomains"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "randomizeEndpoint"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "renegotiatesAfter"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "routingPolicies"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "searchDomain"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "tlsSecurityLevel"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "tlsWrap"]
+- ["9TunnelKit7OpenVPNC20ConfigurationBuilderV", "usesPIAPatches"]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "=="]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "Bool"]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "Credentials"]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "String"]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "deinit"]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "encode"]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "init"]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "password"]
+- ["9TunnelKit7OpenVPNC11CredentialsV", "username"]
+- ["9TunnelKit7OpenVPNC15CryptoContainerV", "deinit"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "hasSuffix"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "aes128cbc"]
+- ["s23CustomStringConvertibleP", "aes128gcm"]
+- ["s23CustomStringConvertibleP", "aes192cbc"]
+- ["s23CustomStringConvertibleP", "aes192gcm"]
+- ["s23CustomStringConvertibleP", "aes256cbc"]
+- ["s23CustomStringConvertibleP", "aes256gcm"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "disabled"]
+- ["s23CustomStringConvertibleP", "encode"]
+- !private ["s23CustomStringConvertibleP", "genericName"]
+- !private ["s23CustomStringConvertibleP", "hasSuffix"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "sha1"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- !private ["Se", "Fallback"]
+- !private ["Se", "OpenVPN"]
+- ["Se", "RawValue"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- ["Se", "aes128cbc"]
+- ["Se", "aes128gcm"]
+- ["Se", "aes192cbc"]
+- ["Se", "aes192gcm"]
+- ["Se", "aes256cbc"]
+- ["Se", "aes256gcm"]
+- !private ["Se", "authToken"]
+- !private ["Se", "ca"]
+- !private ["Se", "checksEKU"]
+- !private ["Se", "cipher"]
+- !private ["Se", "clientCertificate"]
+- !private ["Se", "clientKey"]
+- !private ["Se", "compressionAlgorithm"]
+- !private ["Se", "compressionFraming"]
+- ["Se", "description"]
+- !private ["Se", "digest"]
+- ["Se", "disabled"]
+- !private ["Se", "dnsServers"]
+- ["Se", "encode"]
+- !private ["Se", "endpointProtocols"]
+- !private ["Se", "genericName"]
+- !private ["Se", "hasSuffix"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "hostname"]
+- !private ["Se", "httpProxy"]
+- !private ["Se", "httpsProxy"]
+- ["Se", "init"]
+- !private ["Se", "ipv4"]
+- !private ["Se", "ipv6"]
+- !private ["Se", "keepAliveInterval"]
+- !private ["Se", "password"]
+- !private ["Se", "peerId"]
+- !private ["Se", "proxyBypassDomains"]
+- !private ["Se", "randomizeEndpoint"]
+- ["Se", "rawValue"]
+- !private ["Se", "renegotiatesAfter"]
+- !private ["Se", "routingPolicies"]
+- !private ["Se", "searchDomain"]
+- ["Se", "sha1"]
+- !private ["Se", "tlsSecurityLevel"]
+- !private ["Se", "tlsWrap"]
+- !private ["Se", "username"]
+- !private ["Se", "usesPIAPatches"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["9TunnelKit7OpenVPNC6DigestO", "=="]
+- ["9TunnelKit7OpenVPNC6DigestO", "RawValue"]
+- ["9TunnelKit7OpenVPNC6DigestO", "String"]
+- ["9TunnelKit7OpenVPNC6DigestO", "_Default_RawValue"]
+- !private ["9TunnelKit7OpenVPNC6DigestO", "_findStringSwitchCase"]
+- ["9TunnelKit7OpenVPNC6DigestO", "_rawHashValue"]
+- ["9TunnelKit7OpenVPNC6DigestO", "deinit"]
+- ["9TunnelKit7OpenVPNC6DigestO", "description"]
+- ["9TunnelKit7OpenVPNC6DigestO", "encode"]
+- ["9TunnelKit7OpenVPNC6DigestO", "genericName"]
+- ["9TunnelKit7OpenVPNC6DigestO", "hash"]
+- ["9TunnelKit7OpenVPNC6DigestO", "hashValue"]
+- ["9TunnelKit7OpenVPNC6DigestO", "init"]
+- ["9TunnelKit7OpenVPNC6DigestO", "rawValue"]
+- ["9TunnelKit7OpenVPNC6DigestO", "sha1"]
+- ["9TunnelKit7OpenVPNC6DigestO", "sha224"]
+- ["9TunnelKit7OpenVPNC6DigestO", "sha256"]
+- ["9TunnelKit7OpenVPNC6DigestO", "sha384"]
+- ["9TunnelKit7OpenVPNC6DigestO", "sha512"]
+- ["SE", "=="]
+- !private ["SE", "Fallback"]
+- !private ["SE", "OpenVPN"]
+- ["SE", "RawValue"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "_rawHashValue"]
+- ["SE", "aes128cbc"]
+- ["SE", "aes128gcm"]
+- ["SE", "aes192cbc"]
+- ["SE", "aes192gcm"]
+- ["SE", "aes256cbc"]
+- ["SE", "aes256gcm"]
+- !private ["SE", "authToken"]
+- !private ["SE", "ca"]
+- !private ["SE", "checksEKU"]
+- !private ["SE", "cipher"]
+- !private ["SE", "clientCertificate"]
+- !private ["SE", "clientKey"]
+- !private ["SE", "compressionAlgorithm"]
+- !private ["SE", "compressionFraming"]
+- ["SE", "description"]
+- !private ["SE", "digest"]
+- ["SE", "disabled"]
+- !private ["SE", "dnsServers"]
+- ["SE", "encode"]
+- !private ["SE", "endpointProtocols"]
+- !private ["SE", "genericName"]
+- !private ["SE", "hasSuffix"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- !private ["SE", "hostname"]
+- !private ["SE", "httpProxy"]
+- !private ["SE", "httpsProxy"]
+- ["SE", "init"]
+- !private ["SE", "ipv4"]
+- !private ["SE", "ipv6"]
+- !private ["SE", "keepAliveInterval"]
+- !private ["SE", "password"]
+- !private ["SE", "peerId"]
+- !private ["SE", "proxyBypassDomains"]
+- !private ["SE", "randomizeEndpoint"]
+- ["SE", "rawValue"]
+- !private ["SE", "renegotiatesAfter"]
+- !private ["SE", "routingPolicies"]
+- !private ["SE", "searchDomain"]
+- ["SE", "sha1"]
+- !private ["SE", "tlsSecurityLevel"]
+- !private ["SE", "tlsWrap"]
+- !private ["SE", "username"]
+- !private ["SE", "usesPIAPatches"]
+- !private ["s7EncoderP", "container"]
+- ["9TunnelKit16EndpointProtocolV", "deinit"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "aes128cbc"]
+- ["SQ", "aes128gcm"]
+- ["SQ", "aes192cbc"]
+- ["SQ", "aes192gcm"]
+- ["SQ", "aes256cbc"]
+- ["SQ", "aes256gcm"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "disabled"]
+- ["SQ", "encode"]
+- !private ["SQ", "genericName"]
+- !private ["SQ", "hasSuffix"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "password"]
+- ["SQ", "rawValue"]
+- ["SQ", "sha1"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "username"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasSuffix"]
+- !private ["s26ExpressibleByStringLiteralP", "hasSuffix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasSuffix"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "aes128cbc"]
+- ["SH", "aes128gcm"]
+- ["SH", "aes192cbc"]
+- ["SH", "aes192gcm"]
+- ["SH", "aes256cbc"]
+- ["SH", "aes256gcm"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "disabled"]
+- ["SH", "encode"]
+- !private ["SH", "genericName"]
+- !private ["SH", "hasSuffix"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "sha1"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["9TunnelKit12IPv4SettingsV", "deinit"]
+- ["9TunnelKit12IPv6SettingsV", "deinit"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["s25LosslessStringConvertibleP", "hasSuffix"]
+- !private ["s10MirrorPathP", "hasSuffix"]
+- !private ["So8NSCodingP", "hasSuffix"]
+- !private ["So9NSCopyingP", "hasSuffix"]
+- !private ["So21NSItemProviderReadingP", "hasSuffix"]
+- !private ["So21NSItemProviderWritingP", "hasSuffix"]
+- !private ["So16NSMutableCopyingP", "hasSuffix"]
+- !private ["So8NSObjectC", "hasSuffix"]
+- !private ["So8NSObjectP", "hasSuffix"]
+- !private ["So19NSPasteboardReadingP", "hasSuffix"]
+- !private ["So19NSPasteboardWritingP", "hasSuffix"]
+- !private ["So14NSSecureCodingP", "hasSuffix"]
+- !private ["So8NSStringC", "hasSuffix"]
+- ["9TunnelKit7OpenVPNC", "Bool"]
+- ["9TunnelKit7OpenVPNC", "Cipher"]
+- ["9TunnelKit7OpenVPNC", "Codable"]
+- ["9TunnelKit7OpenVPNC", "CompressionAlgorithm"]
+- ["9TunnelKit7OpenVPNC", "CompressionFraming"]
+- ["9TunnelKit7OpenVPNC", "Configuration"]
+- ["9TunnelKit7OpenVPNC", "ConfigurationBuilder"]
+- ["9TunnelKit7OpenVPNC", "Credentials"]
+- ["9TunnelKit7OpenVPNC", "CryptoContainer"]
+- ["9TunnelKit7OpenVPNC", "CustomStringConvertible"]
+- ["9TunnelKit7OpenVPNC", "Digest"]
+- ["9TunnelKit7OpenVPNC", "EndpointProtocol"]
+- ["9TunnelKit7OpenVPNC", "Equatable"]
+- !private ["9TunnelKit7OpenVPNC", "Fallback"]
+- ["9TunnelKit7OpenVPNC", "IPv4Settings"]
+- ["9TunnelKit7OpenVPNC", "IPv6Settings"]
+- ["9TunnelKit7OpenVPNC", "Int"]
+- ["9TunnelKit7OpenVPNC", "Proxy"]
+- ["9TunnelKit7OpenVPNC", "RoutingPolicy"]
+- ["9TunnelKit7OpenVPNC", "String"]
+- ["9TunnelKit7OpenVPNC", "TLSWrap"]
+- ["9TunnelKit7OpenVPNC", "TimeInterval"]
+- ["9TunnelKit7OpenVPNC", "UInt32"]
+- !private ["9TunnelKit7OpenVPNC", "_findStringSwitchCase"]
+- ["9TunnelKit5ProxyV", "deinit"]
+- !private ["Sm", "hasSuffix"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "aes128cbc"]
+- ["SY", "aes128gcm"]
+- ["SY", "aes192cbc"]
+- ["SY", "aes192gcm"]
+- ["SY", "aes256cbc"]
+- ["SY", "aes256gcm"]
+- ["SY", "description"]
+- ["SY", "disabled"]
+- ["SY", "encode"]
+- !private ["SY", "genericName"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["SY", "sha1"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "=="]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "IPv4"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "IPv6"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "RawValue"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "_Default_RawValue"]
+- !private ["9TunnelKit7OpenVPNC13RoutingPolicyO", "_findStringSwitchCase"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "_rawHashValue"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "blockLocal"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "deinit"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "encode"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "hash"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "hashValue"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "init"]
+- ["9TunnelKit7OpenVPNC13RoutingPolicyO", "rawValue"]
+- !private ["ST", "hasSuffix"]
+- !private ["SS", "hasSuffix"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "hasSuffix"]
+- ["9TunnelKit7OpenVPNC7TLSWrapC", "deinit"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "hasSuffix"]
+- !private ["s20TextOutputStreamableP", "hasSuffix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasSuffix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasSuffix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasSuffix"]
+- !private ["s19_HasContiguousBytesP", "hasSuffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasSuffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasSuffix"]
+- !private ["s21_ObjectiveCBridgeableP", "hasSuffix"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- "9TunnelKit7OpenVPNC6CipherO"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- "9TunnelKit7OpenVPNC20CompressionAlgorithmO"
+- "9TunnelKit7OpenVPNC18CompressionFramingO"
+- "9TunnelKit7OpenVPNC13ConfigurationV"
+- "9TunnelKit7OpenVPNC20ConfigurationBuilderV"
+- "9TunnelKit7OpenVPNC11CredentialsV"
+- "9TunnelKit7OpenVPNC15CryptoContainerV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- "9TunnelKit7OpenVPNC6DigestO"
+- "SE"
+- !private "s7EncoderP"
+- "9TunnelKit16EndpointProtocolV"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "9TunnelKit12IPv4SettingsV"
+- "9TunnelKit12IPv6SettingsV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "9TunnelKit7OpenVPNC"
+- "9TunnelKit5ProxyV"
+- !private "Sm"
+- "SY"
+- "9TunnelKit7OpenVPNC13RoutingPolicyO"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "9TunnelKit7OpenVPNC7TLSWrapC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/LZO.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/DNS.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/MSS.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/Target Support Files/TunnelKit/TunnelKit-umbrella.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/ZeroingData.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTable.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionFramingNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CompressionAlgorithmNative.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPath.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketStream.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/Crypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/DataPathCrypto.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ReplayProtector.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/PacketMacros.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/Errors.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/ControlPacket.h"
+- "/Project/ShenyeStealthVPN/build/Debug/SwiftyBeaver/SwiftyBeaver.framework/Versions/A/Headers/SwiftyBeaver-Swift.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/TLSBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/CryptoBox.h"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/RoutingTableEntry.h"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/TunnelKit.build/unextended-module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Protocols/OpenVPN/module.modulemap"
+- "/Project/ShenyeStealthVPN/build/Pods.build/Debug/SwiftyBeaver.build/module.modulemap"
+- "/Project/ShenyeStealthVPN/Pods/TunnelKit/TunnelKit/Sources/Core/module.modulemap"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/jsec1912/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "28104758498b5a63abd83bf1327d1597"

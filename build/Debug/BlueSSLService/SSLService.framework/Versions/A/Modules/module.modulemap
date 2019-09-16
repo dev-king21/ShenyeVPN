@@ -1,0 +1,11 @@
+framework module SSLService {
+  umbrella header "BlueSSLService-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SSLService.Swift {
+    header "SSLService-Swift.h"
+    requires objc
+}

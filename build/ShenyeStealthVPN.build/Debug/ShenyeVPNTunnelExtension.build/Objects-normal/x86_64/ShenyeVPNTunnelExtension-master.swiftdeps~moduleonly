@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "bf10972906c74548a578485a63832711"
+build_time: [1559877687, 562938000]
+inputs:
+  "/Project/ShenyeStealthVPN/ShenyeVPNTunnelExtension/PacketTunnelProvider.swift": [1559778409, 0]
